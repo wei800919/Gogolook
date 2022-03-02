@@ -36,6 +36,15 @@
 		1E73354127CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353D27CC8BED0063BB13 /* UIVIewController+Ext.swift */; };
 		1E73354427CCBA440063BB13 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */; };
 		1EB9C31627CF84DE000756E9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C31527CF84DE000756E9 /* String+Ext.swift */; };
+		1EB9C31727CFA860000756E9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73351F27CC78350063BB13 /* Errors.swift */; };
+		1EB9C31827CFA871000756E9 /* FetchParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73351E27CC78350063BB13 /* FetchParameter.swift */; };
+		1EB9C31927CFA871000756E9 /* URLProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73352027CC78350063BB13 /* URLProcess.swift */; };
+		1EB9C31A27CFA871000756E9 /* APIFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73352127CC78350063BB13 /* APIFetch.swift */; };
+		1EB9C31B27CFA871000756E9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73351D27CC78350063BB13 /* API.swift */; };
+		1EB9C31C27CFA88A000756E9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C31527CF84DE000756E9 /* String+Ext.swift */; };
+		1EB9C31D27CFA890000756E9 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334F027CC77D90063BB13 /* AnimeViewController.swift */; };
+		1EB9C31E27CFA890000756E9 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */; };
+		1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334EC27CC77D90063BB13 /* AppDelegate.swift */; };
 		28F636B1FDD98DA5B2CE9B24 /* Pods_GogolookTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69A8F76462D2ECB3FA3D835 /* Pods_GogolookTest.framework */; };
 		A698A53B60914E58A3DF290D /* Pods_GogolookTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */; };
 		FE48B43B0379233AA5E50A44 /* Pods_GogolookTest_GogolookTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */; };
@@ -549,12 +558,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73353F27CC8BED0063BB13 /* UIImageView+Ext.swift in Sources */,
+				1EB9C31927CFA871000756E9 /* URLProcess.swift in Sources */,
 				1E73353327CC84670063BB13 /* AnimeViewModel.swift in Sources */,
+				1EB9C31C27CFA88A000756E9 /* String+Ext.swift in Sources */,
 				1E73352927CC7C630063BB13 /* APIURLTest.swift in Sources */,
 				1E73352F27CC7F8C0063BB13 /* APIFetchTest.swift in Sources */,
 				1E73354127CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */,
+				1EB9C31E27CFA890000756E9 /* AnimeDetailViewController.swift in Sources */,
+				1EB9C31B27CFA871000756E9 /* API.swift in Sources */,
+				1EB9C31A27CFA871000756E9 /* APIFetch.swift in Sources */,
 				1E73352C27CC7D950063BB13 /* AnimeCodable.swift in Sources */,
+				1EB9C31727CFA860000756E9 /* Errors.swift in Sources */,
+				1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */,
+				1EB9C31827CFA871000756E9 /* FetchParameter.swift in Sources */,
 				1E73353B27CC877C0063BB13 /* AnimeTableViewCell.swift in Sources */,
+				1EB9C31D27CFA890000756E9 /* AnimeViewController.swift in Sources */,
 				1E73350427CC77DB0063BB13 /* GogolookTestTests.swift in Sources */,
 				1E73353727CC84D70063BB13 /* AnimeAPIManager.swift in Sources */,
 			);

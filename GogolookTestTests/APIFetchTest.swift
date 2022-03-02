@@ -11,7 +11,7 @@ import XCTest
 class APIFetchTest: XCTestCase {
 
     func testAPIFetch() throws{
-        let process = APIFetch<TopModelCodable>()
+        let process = APIFetch<AnimeCodable>()
         let param: [String: Any] = [:]
         
         process.request(param: FetchParameters(url: API.shared.getAnimeUrl(page: "1"), parameters: param, method: .get)) { result in
