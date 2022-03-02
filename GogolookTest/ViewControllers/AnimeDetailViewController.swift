@@ -43,6 +43,8 @@ class AnimeDetailViewController: UIViewController, WKNavigationDelegate, WKUIDel
     */
     
     func setUI() {
+        
+        //fix ios 13 navigationbar appearance issue
         if #available(iOS 13.0, *) {
             let navBarAppearance = UINavigationBarAppearance()
             navBarAppearance.configureWithOpaqueBackground()
@@ -68,13 +70,10 @@ class AnimeDetailViewController: UIViewController, WKNavigationDelegate, WKUIDel
     }
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        print(webView.title)
         print(webView.url ?? "")
-        
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        print(webView.title)
         print(webView.url ?? "")
         self.title = webView.title
     }

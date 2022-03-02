@@ -13,10 +13,6 @@ var hud = MBProgressHUD.init()
 
 extension UIViewController {
     
-    var isiPad: Bool {
-        return UIDevice.current.userInterfaceIdiom == .pad
-    }
-    
     func showLoadingView(title: String = ""){
         hud = MBProgressHUD.showAdded(to: self.view, animated: true)
         hud.label.text = String(format: "%@", title)
@@ -27,13 +23,6 @@ extension UIViewController {
     
     func hideLoadingView(){
         hud.hide(animated: true)
-    }
-    
-    func showConfirmAlert(title: String?, msg: String?) {
-        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
-        let okAction = UIAlertAction(title: NSLocalizedString("SH_Confirm", comment: ""), style: .default, handler: nil)
-        alert.addAction(okAction)
-        self.present(alert, animated: true, completion: nil)
     }
     
     func showAPIFailAlert(error: AppError) {

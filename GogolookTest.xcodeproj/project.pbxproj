@@ -45,6 +45,8 @@
 		1EB9C31D27CFA890000756E9 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334F027CC77D90063BB13 /* AnimeViewController.swift */; };
 		1EB9C31E27CFA890000756E9 /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */; };
 		1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334EC27CC77D90063BB13 /* AppDelegate.swift */; };
+		1EB9C32227CFA95C000756E9 /* DownloadImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */; };
+		1EB9C32727CFAC1F000756E9 /* DateStringFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */; };
 		28F636B1FDD98DA5B2CE9B24 /* Pods_GogolookTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69A8F76462D2ECB3FA3D835 /* Pods_GogolookTest.framework */; };
 		A698A53B60914E58A3DF290D /* Pods_GogolookTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */; };
 		FE48B43B0379233AA5E50A44 /* Pods_GogolookTest_GogolookTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */; };
@@ -97,6 +99,8 @@
 		1E73353D27CC8BED0063BB13 /* UIVIewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Ext.swift"; sourceTree = "<group>"; };
 		1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
 		1EB9C31527CF84DE000756E9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageTest.swift; sourceTree = "<group>"; };
+		1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringFormatTest.swift; sourceTree = "<group>"; };
 		4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D477C322415D596A5E72280 /* Pods-GogolookTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTestTests.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTest_GogolookTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +198,8 @@
 				1E73350327CC77DB0063BB13 /* GogolookTestTests.swift */,
 				1E73352827CC7C630063BB13 /* APIURLTest.swift */,
 				1E73352E27CC7F8C0063BB13 /* APIFetchTest.swift */,
+				1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */,
+				1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */,
 			);
 			path = GogolookTestTests;
 			sourceTree = "<group>";
@@ -559,6 +565,8 @@
 			files = (
 				1E73353F27CC8BED0063BB13 /* UIImageView+Ext.swift in Sources */,
 				1EB9C31927CFA871000756E9 /* URLProcess.swift in Sources */,
+				1EB9C32227CFA95C000756E9 /* DownloadImageTest.swift in Sources */,
+				1EB9C32727CFAC1F000756E9 /* DateStringFormatTest.swift in Sources */,
 				1E73353327CC84670063BB13 /* AnimeViewModel.swift in Sources */,
 				1EB9C31C27CFA88A000756E9 /* String+Ext.swift in Sources */,
 				1E73352927CC7C630063BB13 /* APIURLTest.swift in Sources */,
