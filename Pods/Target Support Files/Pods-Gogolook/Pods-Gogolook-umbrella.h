@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_GogolookTestVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_GogolookTestVersionString[];
+FOUNDATION_EXPORT double Pods_GogolookVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GogolookVersionString[];
 

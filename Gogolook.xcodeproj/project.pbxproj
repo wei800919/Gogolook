@@ -47,9 +47,9 @@
 		1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334EC27CC77D90063BB13 /* AppDelegate.swift */; };
 		1EB9C32227CFA95C000756E9 /* DownloadImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */; };
 		1EB9C32727CFAC1F000756E9 /* DateStringFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */; };
-		28F636B1FDD98DA5B2CE9B24 /* Pods_GogolookTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69A8F76462D2ECB3FA3D835 /* Pods_GogolookTest.framework */; };
-		A698A53B60914E58A3DF290D /* Pods_GogolookTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */; };
-		FE48B43B0379233AA5E50A44 /* Pods_GogolookTest_GogolookTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */; };
+		40C322F071051185BA5BCC3F /* Pods_GogolookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F224F3B998909A5BF8121F92 /* Pods_GogolookTests.framework */; };
+		8CB4D0A41D368D1E52C6505F /* Pods_Gogolook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51BA6B47931EEFD45E01F1 /* Pods_Gogolook.framework */; };
+		B05CBC625E5641E09458E4A9 /* Pods_Gogolook_GogolookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250C1FD3E74109E120B1AE3B /* Pods_Gogolook_GogolookUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,18 +70,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15F0283BC99A92A5596AF64A /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTest-GogolookTestUITests.release.xcconfig"; path = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests.release.xcconfig"; sourceTree = "<group>"; };
-		19532ADD8D4C3706D50C5B7C /* Pods-GogolookTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTestTests.release.xcconfig"; path = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		1E7334E927CC77D90063BB13 /* GogolookTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GogolookTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5FA04B5348E1D8B286FAA6 /* Pods-Gogolook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook.debug.xcconfig"; path = "Target Support Files/Pods-Gogolook/Pods-Gogolook.debug.xcconfig"; sourceTree = "<group>"; };
+		1E7334E927CC77D90063BB13 /* Gogolook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gogolook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7334EC27CC77D90063BB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E7334F027CC77D90063BB13 /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
 		1E7334F327CC77D90063BB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E7334F527CC77DA0063BB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E7334F827CC77DA0063BB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E7334FA27CC77DB0063BB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E7334FF27CC77DB0063BB13 /* GogolookTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GogolookTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7334FF27CC77DB0063BB13 /* GogolookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GogolookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E73350327CC77DB0063BB13 /* GogolookTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogolookTestTests.swift; sourceTree = "<group>"; };
-		1E73350927CC77DB0063BB13 /* GogolookTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GogolookTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E73350927CC77DB0063BB13 /* GogolookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GogolookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E73350D27CC77DB0063BB13 /* GogolookTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogolookTestUITests.swift; sourceTree = "<group>"; };
 		1E73350F27CC77DB0063BB13 /* GogolookTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GogolookTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1E73351D27CC78350063BB13 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -101,13 +100,14 @@
 		1EB9C31527CF84DE000756E9 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageTest.swift; sourceTree = "<group>"; };
 		1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringFormatTest.swift; sourceTree = "<group>"; };
-		4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D477C322415D596A5E72280 /* Pods-GogolookTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTestTests.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTest_GogolookTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD831CCBB56866110872FEE0 /* Pods-GogolookTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTest.release.xcconfig"; path = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest.release.xcconfig"; sourceTree = "<group>"; };
-		C69A8F76462D2ECB3FA3D835 /* Pods_GogolookTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6486C0D7AEA61DC6A8F141 /* Pods-GogolookTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTest.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest.debug.xcconfig"; sourceTree = "<group>"; };
-		F405604D03EA97888501A012 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTest-GogolookTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		250C1FD3E74109E120B1AE3B /* Pods_Gogolook_GogolookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gogolook_GogolookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C641C03928D74486843EC82 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook-GogolookUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F9FDE04A013D1797BF4F3E /* Pods-Gogolook-GogolookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook-GogolookUITests.release.xcconfig"; path = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48CCC92C80DD955C24AC55DA /* Pods-GogolookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTests.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		582327CBB9A9C9835A7DF28C /* Pods-Gogolook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook.release.xcconfig"; path = "Target Support Files/Pods-Gogolook/Pods-Gogolook.release.xcconfig"; sourceTree = "<group>"; };
+		7F51BA6B47931EEFD45E01F1 /* Pods_Gogolook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gogolook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC82B73A748D58B8CE261F3 /* Pods-GogolookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTests.release.xcconfig"; path = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests.release.xcconfig"; sourceTree = "<group>"; };
+		F224F3B998909A5BF8121F92 /* Pods_GogolookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F636B1FDD98DA5B2CE9B24 /* Pods_GogolookTest.framework in Frameworks */,
+				8CB4D0A41D368D1E52C6505F /* Pods_Gogolook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A698A53B60914E58A3DF290D /* Pods_GogolookTestTests.framework in Frameworks */,
+				40C322F071051185BA5BCC3F /* Pods_GogolookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE48B43B0379233AA5E50A44 /* Pods_GogolookTest_GogolookTestUITests.framework in Frameworks */,
+				B05CBC625E5641E09458E4A9 /* Pods_Gogolook_GogolookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +141,12 @@
 		0F8FA1D78DB32FB8828BCC41 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA6486C0D7AEA61DC6A8F141 /* Pods-GogolookTest.debug.xcconfig */,
-				BD831CCBB56866110872FEE0 /* Pods-GogolookTest.release.xcconfig */,
-				F405604D03EA97888501A012 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */,
-				15F0283BC99A92A5596AF64A /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */,
-				5D477C322415D596A5E72280 /* Pods-GogolookTestTests.debug.xcconfig */,
-				19532ADD8D4C3706D50C5B7C /* Pods-GogolookTestTests.release.xcconfig */,
+				0F5FA04B5348E1D8B286FAA6 /* Pods-Gogolook.debug.xcconfig */,
+				582327CBB9A9C9835A7DF28C /* Pods-Gogolook.release.xcconfig */,
+				3C641C03928D74486843EC82 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */,
+				43F9FDE04A013D1797BF4F3E /* Pods-Gogolook-GogolookUITests.release.xcconfig */,
+				48CCC92C80DD955C24AC55DA /* Pods-GogolookTests.debug.xcconfig */,
+				CAC82B73A748D58B8CE261F3 /* Pods-GogolookTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -154,26 +154,26 @@
 		1E7334E027CC77D90063BB13 = {
 			isa = PBXGroup;
 			children = (
-				1E7334EB27CC77D90063BB13 /* GogolookTest */,
-				1E73350227CC77DB0063BB13 /* GogolookTestTests */,
-				1E73350C27CC77DB0063BB13 /* GogolookTestUITests */,
+				1E7334EB27CC77D90063BB13 /* Gogolook */,
+				1E73350227CC77DB0063BB13 /* GogolookTests */,
+				1E73350C27CC77DB0063BB13 /* GogolookUITests */,
 				1E7334EA27CC77D90063BB13 /* Products */,
 				0F8FA1D78DB32FB8828BCC41 /* Pods */,
-				8502BFB71538C25AE53A3161 /* Frameworks */,
+				B982D9E57D0FCE33DF6C3477 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1E7334EA27CC77D90063BB13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E7334E927CC77D90063BB13 /* GogolookTest.app */,
-				1E7334FF27CC77DB0063BB13 /* GogolookTestTests.xctest */,
-				1E73350927CC77DB0063BB13 /* GogolookTestUITests.xctest */,
+				1E7334E927CC77D90063BB13 /* Gogolook.app */,
+				1E7334FF27CC77DB0063BB13 /* GogolookTests.xctest */,
+				1E73350927CC77DB0063BB13 /* GogolookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E7334EB27CC77D90063BB13 /* GogolookTest */ = {
+		1E7334EB27CC77D90063BB13 /* Gogolook */ = {
 			isa = PBXGroup;
 			children = (
 				1E73354227CCBA210063BB13 /* ViewControllers */,
@@ -189,10 +189,10 @@
 				1E7334F727CC77DA0063BB13 /* LaunchScreen.storyboard */,
 				1E7334F227CC77D90063BB13 /* Main.storyboard */,
 			);
-			path = GogolookTest;
+			path = Gogolook;
 			sourceTree = "<group>";
 		};
-		1E73350227CC77DB0063BB13 /* GogolookTestTests */ = {
+		1E73350227CC77DB0063BB13 /* GogolookTests */ = {
 			isa = PBXGroup;
 			children = (
 				1E73350327CC77DB0063BB13 /* GogolookTestTests.swift */,
@@ -201,16 +201,16 @@
 				1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */,
 				1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */,
 			);
-			path = GogolookTestTests;
+			path = GogolookTests;
 			sourceTree = "<group>";
 		};
-		1E73350C27CC77DB0063BB13 /* GogolookTestUITests */ = {
+		1E73350C27CC77DB0063BB13 /* GogolookUITests */ = {
 			isa = PBXGroup;
 			children = (
 				1E73350D27CC77DB0063BB13 /* GogolookTestUITests.swift */,
 				1E73350F27CC77DB0063BB13 /* GogolookTestUITestsLaunchTests.swift */,
 			);
-			path = GogolookTestUITests;
+			path = GogolookUITests;
 			sourceTree = "<group>";
 		};
 		1E73351C27CC781A0063BB13 /* Netwoking */ = {
@@ -292,12 +292,12 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		8502BFB71538C25AE53A3161 /* Frameworks */ = {
+		B982D9E57D0FCE33DF6C3477 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C69A8F76462D2ECB3FA3D835 /* Pods_GogolookTest.framework */,
-				6CD2B9545421E785A0BA2EF0 /* Pods_GogolookTest_GogolookTestUITests.framework */,
-				4A05F4D0E5DFE9A0BE1612AB /* Pods_GogolookTestTests.framework */,
+				7F51BA6B47931EEFD45E01F1 /* Pods_Gogolook.framework */,
+				250C1FD3E74109E120B1AE3B /* Pods_Gogolook_GogolookUITests.framework */,
+				F224F3B998909A5BF8121F92 /* Pods_GogolookTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,30 +305,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E7334E827CC77D90063BB13 /* GogolookTest */ = {
+		1E7334E827CC77D90063BB13 /* Gogolook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E73351327CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTest" */;
+			buildConfigurationList = 1E73351327CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "Gogolook" */;
 			buildPhases = (
-				78915D7C3BFCA730093C9D79 /* [CP] Check Pods Manifest.lock */,
+				5DE87711CF73136C0F4463CF /* [CP] Check Pods Manifest.lock */,
 				1E7334E527CC77D90063BB13 /* Sources */,
 				1E7334E627CC77D90063BB13 /* Frameworks */,
 				1E7334E727CC77D90063BB13 /* Resources */,
-				E4846D045621AC4CEF94C673 /* [CP] Embed Pods Frameworks */,
+				F841BBD21963CB0335A15B9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GogolookTest;
+			name = Gogolook;
 			productName = GogolookTest;
-			productReference = 1E7334E927CC77D90063BB13 /* GogolookTest.app */;
+			productReference = 1E7334E927CC77D90063BB13 /* Gogolook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1E7334FE27CC77DB0063BB13 /* GogolookTestTests */ = {
+		1E7334FE27CC77DB0063BB13 /* GogolookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E73351627CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTestTests" */;
+			buildConfigurationList = 1E73351627CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTests" */;
 			buildPhases = (
-				651A6B771A00A04179610133 /* [CP] Check Pods Manifest.lock */,
+				F8E4E0A9526535A00B537273 /* [CP] Check Pods Manifest.lock */,
 				1E7334FB27CC77DB0063BB13 /* Sources */,
 				1E7334FC27CC77DB0063BB13 /* Frameworks */,
 				1E7334FD27CC77DB0063BB13 /* Resources */,
@@ -338,29 +338,29 @@
 			dependencies = (
 				1E73350127CC77DB0063BB13 /* PBXTargetDependency */,
 			);
-			name = GogolookTestTests;
+			name = GogolookTests;
 			productName = GogolookTestTests;
-			productReference = 1E7334FF27CC77DB0063BB13 /* GogolookTestTests.xctest */;
+			productReference = 1E7334FF27CC77DB0063BB13 /* GogolookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1E73350827CC77DB0063BB13 /* GogolookTestUITests */ = {
+		1E73350827CC77DB0063BB13 /* GogolookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E73351927CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTestUITests" */;
+			buildConfigurationList = 1E73351927CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookUITests" */;
 			buildPhases = (
-				EF75C5F3B29BAA327D0398E0 /* [CP] Check Pods Manifest.lock */,
+				6FF96D9E5181247706400A6F /* [CP] Check Pods Manifest.lock */,
 				1E73350527CC77DB0063BB13 /* Sources */,
 				1E73350627CC77DB0063BB13 /* Frameworks */,
 				1E73350727CC77DB0063BB13 /* Resources */,
-				C2B7486095132B92C7B3D268 /* [CP] Embed Pods Frameworks */,
+				2827ED5031838CDAD6124829 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1E73350B27CC77DB0063BB13 /* PBXTargetDependency */,
 			);
-			name = GogolookTestUITests;
+			name = GogolookUITests;
 			productName = GogolookTestUITests;
-			productReference = 1E73350927CC77DB0063BB13 /* GogolookTestUITests.xctest */;
+			productReference = 1E73350927CC77DB0063BB13 /* GogolookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -386,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E7334E427CC77D90063BB13 /* Build configuration list for PBXProject "GogolookTest" */;
+			buildConfigurationList = 1E7334E427CC77D90063BB13 /* Build configuration list for PBXProject "Gogolook" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -399,9 +399,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E7334E827CC77D90063BB13 /* GogolookTest */,
-				1E7334FE27CC77DB0063BB13 /* GogolookTestTests */,
-				1E73350827CC77DB0063BB13 /* GogolookTestUITests */,
+				1E7334E827CC77D90063BB13 /* Gogolook */,
+				1E7334FE27CC77DB0063BB13 /* GogolookTests */,
+				1E73350827CC77DB0063BB13 /* GogolookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -434,7 +434,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		651A6B771A00A04179610133 /* [CP] Check Pods Manifest.lock */ = {
+		2827ED5031838CDAD6124829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE87711CF73136C0F4463CF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,14 +466,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GogolookTestTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Gogolook-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78915D7C3BFCA730093C9D79 /* [CP] Check Pods Manifest.lock */ = {
+		6FF96D9E5181247706400A6F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,48 +488,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GogolookTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Gogolook-GogolookUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C2B7486095132B92C7B3D268 /* [CP] Embed Pods Frameworks */ = {
+		F841BBD21963CB0335A15B9A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Gogolook/Pods-Gogolook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Gogolook/Pods-Gogolook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gogolook/Pods-Gogolook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E4846D045621AC4CEF94C673 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GogolookTest/Pods-GogolookTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GogolookTest/Pods-GogolookTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GogolookTest/Pods-GogolookTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF75C5F3B29BAA327D0398E0 /* [CP] Check Pods Manifest.lock */ = {
+		F8E4E0A9526535A00B537273 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,7 +527,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GogolookTest-GogolookTestUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GogolookTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -600,12 +600,12 @@
 /* Begin PBXTargetDependency section */
 		1E73350127CC77DB0063BB13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E7334E827CC77D90063BB13 /* GogolookTest */;
+			target = 1E7334E827CC77D90063BB13 /* Gogolook */;
 			targetProxy = 1E73350027CC77DB0063BB13 /* PBXContainerItemProxy */;
 		};
 		1E73350B27CC77DB0063BB13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E7334E827CC77D90063BB13 /* GogolookTest */;
+			target = 1E7334E827CC77D90063BB13 /* Gogolook */;
 			targetProxy = 1E73350A27CC77DB0063BB13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -748,7 +748,7 @@
 		};
 		1E73351427CC77DB0063BB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA6486C0D7AEA61DC6A8F141 /* Pods-GogolookTest.debug.xcconfig */;
+			baseConfigurationReference = 0F5FA04B5348E1D8B286FAA6 /* Pods-Gogolook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -756,7 +756,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QY7ABBTPS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GogolookTest/Info.plist;
+				INFOPLIST_FILE = Gogolook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -768,7 +768,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weixinke.GogolookTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weixinke.Gogolook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -778,7 +778,7 @@
 		};
 		1E73351527CC77DB0063BB13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD831CCBB56866110872FEE0 /* Pods-GogolookTest.release.xcconfig */;
+			baseConfigurationReference = 582327CBB9A9C9835A7DF28C /* Pods-Gogolook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -786,7 +786,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QY7ABBTPS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GogolookTest/Info.plist;
+				INFOPLIST_FILE = Gogolook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -798,7 +798,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weixinke.GogolookTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weixinke.Gogolook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -808,7 +808,7 @@
 		};
 		1E73351727CC77DB0063BB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D477C322415D596A5E72280 /* Pods-GogolookTestTests.debug.xcconfig */;
+			baseConfigurationReference = 48CCC92C80DD955C24AC55DA /* Pods-GogolookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -823,13 +823,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GogolookTest.app/GogolookTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gogolook.app/Gogolook";
 			};
 			name = Debug;
 		};
 		1E73351827CC77DB0063BB13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19532ADD8D4C3706D50C5B7C /* Pods-GogolookTestTests.release.xcconfig */;
+			baseConfigurationReference = CAC82B73A748D58B8CE261F3 /* Pods-GogolookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -844,13 +844,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GogolookTest.app/GogolookTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gogolook.app/Gogolook";
 			};
 			name = Release;
 		};
 		1E73351A27CC77DB0063BB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F405604D03EA97888501A012 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */;
+			baseConfigurationReference = 3C641C03928D74486843EC82 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -869,7 +869,7 @@
 		};
 		1E73351B27CC77DB0063BB13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15F0283BC99A92A5596AF64A /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */;
+			baseConfigurationReference = 43F9FDE04A013D1797BF4F3E /* Pods-Gogolook-GogolookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -889,7 +889,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E7334E427CC77D90063BB13 /* Build configuration list for PBXProject "GogolookTest" */ = {
+		1E7334E427CC77D90063BB13 /* Build configuration list for PBXProject "Gogolook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E73351127CC77DB0063BB13 /* Debug */,
@@ -898,7 +898,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E73351327CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTest" */ = {
+		1E73351327CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "Gogolook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E73351427CC77DB0063BB13 /* Debug */,
@@ -907,7 +907,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E73351627CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTestTests" */ = {
+		1E73351627CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E73351727CC77DB0063BB13 /* Debug */,
@@ -916,7 +916,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E73351927CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookTestUITests" */ = {
+		1E73351927CC77DB0063BB13 /* Build configuration list for PBXNativeTarget "GogolookUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E73351A27CC77DB0063BB13 /* Debug */,

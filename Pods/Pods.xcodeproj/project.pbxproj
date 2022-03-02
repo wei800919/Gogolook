@@ -8,35 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0F8A9B30335DEE2AAC6BF5F182426 /* ParameterEncoding.swift */; };
+		11167AB6CA3210E2BC8870EF539B06AF /* Pods-GogolookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEA8FBC46CD34F53096D89A6689D606 /* Pods-GogolookTests-dummy.m */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2850441D67A2D88050845AC491939C74 /* Notifications.swift */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 399BA70AA551F046B8468A483099B80F /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE94BC31CE96F64CDA6856398F2BAEB /* MultipartFormData.swift */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108007B305FECF404284C87A9D2A926 /* SessionDelegate.swift */; };
-		329821BB79A3E595CFF791BF0CC9E104 /* Pods-GogolookTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9BF58BE15CA01D9565FF472E056482 /* Pods-GogolookTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD981870C4189F22FA3EBD4C61758C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		34425330936B6CF520F587209BE7408B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5FAF6300BED01D66012B71D919F07 /* NetworkReachabilityManager.swift */; };
-		4101ECFFA536E9D98C51536A3BCA67AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		406A20F3562DE7DE92B505BB49637492 /* Pods-Gogolook-GogolookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C808F74463F595B329EC09743197579A /* Pods-Gogolook-GogolookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677DD1F7AC64BF19C71CEBD97C4C056F /* Validation.swift */; };
-		5D99944CC6428C985157F0E219784956 /* Pods-GogolookTest-GogolookTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF14E8547F8B764272C4AA80A005F62 /* Pods-GogolookTest-GogolookTestUITests-dummy.m */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3299C3D7CB47C816AADBC5EE63FCB /* Result.swift */; };
-		6A95D561A8FC221EAFCB3E11C2523501 /* Pods-GogolookTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53603B82BEB4633DD7FBED3D086F2E7F /* Pods-GogolookTest-dummy.m */; };
+		6C340EC0E056A00B6CB7D4D8C741FD86 /* Pods-Gogolook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070BD1129FF0D2862821EC41780E3CFD /* Pods-Gogolook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BECE85B336CCE7BF3A801566092401 /* MBProgressHUD.m */; };
 		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348F2BD625062567360E68E53F9231CF /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFA45E4D376DCB9282A9D38BB2C2BA /* AFError.swift */; };
+		8D9936DACA222A9A3AE8A0D85FB4BF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		92B87C49A1DEA2E7DC6E51079EC8602D /* Pods-Gogolook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86515C4AC53447BB5F01E398B43CE80E /* Pods-Gogolook-dummy.m */; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8950DCBA74C94B1637C6D3F258A172 /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA76A8343FC252AC2526A06B8044C8 /* Timeline.swift */; };
-		9724E0AA25804F949DCC0A97EBDD8336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCEDB65C37485D1C8D2F6A498A24D79 /* Request.swift */; };
+		9CA08C11832B7E72EEBC1C179BC41A91 /* Pods-Gogolook-GogolookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B0ABC17B57303ADB76DE5C453942E /* Pods-Gogolook-GogolookUITests-dummy.m */; };
+		9F7E8150B4DA9A267D9F2006CFF22C59 /* Pods-GogolookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053D12991FEF47571FA595B588F66C4A /* Pods-GogolookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD183A022BFCD1ACE4AE0B19DA2056 /* TaskDelegate.swift */; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9A2F2461020E756084F97AAED227A /* Alamofire.swift */; };
-		C0EFFFDFD16CFC37DC6270A023EC8E37 /* Pods-GogolookTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D08A2196DBEF9856ECD8F22EE95BE918 /* Pods-GogolookTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C109660436136FC8EE523854E19B7BBE /* Pods-GogolookTest-GogolookTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA73DD95C58545545D0C940721B4231 /* Pods-GogolookTest-GogolookTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55CC546538C86B9003F01489FF484E /* DispatchQueue+Alamofire.swift */; };
-		D5A35717B7A6C3138E8F3AA7275357C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421FC83495B91A19622BDB1988BF572 /* Response.swift */; };
-		D6A5B77E39F58B69D19D2DF2258D3599 /* Pods-GogolookTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B88723024FA5DCE3BC0BAE4F1AAA829B /* Pods-GogolookTestTests-dummy.m */; };
 		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51375FF4A9038489587DFCAC42E911A6 /* MBProgressHUD-dummy.m */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776770A4BA37052886B6D7F521362CF /* ResponseSerialization.swift */; };
 		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 6708AB928A5058AD09B3CC49EC0E6A3B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,110 +46,110 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40E5384CC8FDBB0D52D007B557079930 /* PBXContainerItemProxy */ = {
+		28EFDFBEA8C692DC1DA6281E3B09D8B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09211D2F9A0121FF6EF2445FB412985;
+			remoteInfo = "Pods-Gogolook";
+		};
+		3177D0B6386862E780267E0DFAC93B4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
-		42EA46E9E7A500CB07D6429F894C8714 /* PBXContainerItemProxy */ = {
+		9243AC7D0F150972F44B01E60396E605 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B5A04227712F9630CC2F9EF601208E3;
-			remoteInfo = "Pods-GogolookTest";
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
-		696ABCD82B61FDB96FB743AA992150ED /* PBXContainerItemProxy */ = {
+		C4EF8FA513C9D0BF75977161995DACF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		C6FD5F37AF78FFA01AD39303A735D9F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
-		};
-		A83914B07B2D970137089D641EFBC2E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		C76D19B1D6F77FD9865DA5999BF36063 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0005AC3B3371A8D317110AE7B0609BB8 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		02927CBD72EAF924DF1C9A6FDB54533D /* Pods-GogolookTest-GogolookTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GogolookTest-GogolookTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		04CB1D799328CD75E52A84F784D573DA /* Pods-GogolookTest-GogolookTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GogolookTest-GogolookTestUITests.modulemap"; sourceTree = "<group>"; };
+		053D12991FEF47571FA595B588F66C4A /* Pods-GogolookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GogolookTests-umbrella.h"; sourceTree = "<group>"; };
+		070BD1129FF0D2862821EC41780E3CFD /* Pods-Gogolook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gogolook-umbrella.h"; sourceTree = "<group>"; };
 		0DDD183A022BFCD1ACE4AE0B19DA2056 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		0EE94BC31CE96F64CDA6856398F2BAEB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		15B3299C3D7CB47C816AADBC5EE63FCB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		1A3DA7E5F44F904CC54332EFAC9A1B03 /* Pods-GogolookTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GogolookTest-frameworks.sh"; sourceTree = "<group>"; };
-		213CF4B3377D332A5C456C1470287EFB /* Pods-GogolookTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		2421FC83495B91A19622BDB1988BF572 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		2850441D67A2D88050845AC491939C74 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		2FA73DD95C58545545D0C940721B4231 /* Pods-GogolookTest-GogolookTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GogolookTest-GogolookTestUITests-umbrella.h"; sourceTree = "<group>"; };
 		3108007B305FECF404284C87A9D2A926 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		33BF41B4659AD74797C846D1CB505439 /* Pods_Gogolook_GogolookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gogolook_GogolookUITests.framework; path = "Pods-Gogolook-GogolookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348F2BD625062567360E68E53F9231CF /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		35625AD9F204A1ADEEF270967A1097D1 /* Pods-Gogolook-GogolookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gogolook-GogolookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36D81C88BCFEAE0E2BB11EE925B3E3A5 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		3776770A4BA37052886B6D7F521362CF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		399BA70AA551F046B8468A483099B80F /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		3EFC3C2DF64D127EAC56548ED9C3FBCA /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		43C0F8A9B30335DEE2AAC6BF5F182426 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		43EF90BCCF855E9CFDBCE84624D3BBF2 /* Pods_GogolookTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		466705647BFCC8416D3A183112EF5913 /* Pods-GogolookTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GogolookTest.modulemap"; sourceTree = "<group>"; };
+		467154744C45BCB3A8EF31A1A01A465C /* Pods-GogolookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4AF5FAF6300BED01D66012B71D919F07 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4B73FE61C0C442859AC79DAD0B836BD5 /* Pods-Gogolook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gogolook.modulemap"; sourceTree = "<group>"; };
+		4BBF5B839AE1A86BD4F83688F5393B75 /* Pods-GogolookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTests.release.xcconfig"; sourceTree = "<group>"; };
 		50F52B43BA51126038F1E38FBA1F0061 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		51375FF4A9038489587DFCAC42E911A6 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		53603B82BEB4633DD7FBED3D086F2E7F /* Pods-GogolookTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GogolookTest-dummy.m"; sourceTree = "<group>"; };
-		539FDF717950642B82D2797A7710C71C /* Pods-GogolookTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTest.release.xcconfig"; sourceTree = "<group>"; };
+		52236ED730DEA318AEE3F3568A8B5BCB /* Pods-GogolookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GogolookTests.modulemap"; sourceTree = "<group>"; };
 		55CFA45E4D376DCB9282A9D38BB2C2BA /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3A46E8C9D1AD3BA5DCD918BAF733E9 /* Pods-Gogolook-GogolookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gogolook-GogolookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		602894E2BFDD5ED29E68642C2A8D4EF8 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		62EAC02F21BF3051E7C90C029AB14D1E /* Pods_GogolookTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623E5E6FFE86E45E7DDBA45F50906FCB /* Pods-Gogolook-GogolookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gogolook-GogolookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		658CA3D89B0FAA66876E7BEE8ADCDA9E /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		6708AB928A5058AD09B3CC49EC0E6A3B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		677DD1F7AC64BF19C71CEBD97C4C056F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		6DD306C3859389EB1DFFABD640019A3B /* Pods-GogolookTest-GogolookTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTest-GogolookTestUITests-Info.plist"; sourceTree = "<group>"; };
-		6FA5749B61DC08F3D0A3FBD6BE59DB12 /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTest-GogolookTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		72190F647FA06B699983B2DCB12028D7 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		7269EDB4DA1DC7E85DD2A915DD81A3DD /* Pods-GogolookTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTest.debug.xcconfig"; sourceTree = "<group>"; };
-		7D9BF58BE15CA01D9565FF472E056482 /* Pods-GogolookTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GogolookTestTests-umbrella.h"; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98F487EF25F00956224D7CC75D007AB0 /* Pods-GogolookTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GogolookTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		728C1ED55D975BB226538A0EADC75DA8 /* Pods_Gogolook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gogolook.framework; path = "Pods-Gogolook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FD21D1EF3D359CCB64FD12B1EC71F5 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gogolook-GogolookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76746088C360F9A4F93889636EE32A03 /* Pods-GogolookTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTests-Info.plist"; sourceTree = "<group>"; };
+		790B0ABC17B57303ADB76DE5C453942E /* Pods-Gogolook-GogolookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gogolook-GogolookUITests-dummy.m"; sourceTree = "<group>"; };
+		7DEA8FBC46CD34F53096D89A6689D606 /* Pods-GogolookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GogolookTests-dummy.m"; sourceTree = "<group>"; };
+		8202CEEEEF5AF9A38E7CE136267F5401 /* Pods-Gogolook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gogolook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85339C00D949D056D5B3BB71C347CE67 /* Pods-Gogolook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gogolook.debug.xcconfig"; sourceTree = "<group>"; };
+		86515C4AC53447BB5F01E398B43CE80E /* Pods-Gogolook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gogolook-dummy.m"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBE2A4618A0C2B835B3A3AB0818AF46 /* Pods-Gogolook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gogolook.release.xcconfig"; sourceTree = "<group>"; };
+		8E77AB727E463DAFEF2A1BC1BA5BE8A2 /* Pods-Gogolook-GogolookUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gogolook-GogolookUITests-Info.plist"; sourceTree = "<group>"; };
+		9244FBEFF32BB556A4569350F1D80DC0 /* Pods-Gogolook-GogolookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gogolook-GogolookUITests-frameworks.sh"; sourceTree = "<group>"; };
 		9D34E13A1C19A6DF576409220492DF08 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25089318E5015472F20DFCEFA22C0E2 /* Pods_GogolookTest_GogolookTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GogolookTest_GogolookTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2F634AE1F9FB3E20923B32549977306 /* Pods-GogolookTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTest-Info.plist"; sourceTree = "<group>"; };
-		A49075C84CDB740294822352D8D74007 /* Pods-GogolookTest-GogolookTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTest-GogolookTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4B6C1A03F52139393EBACCC139654C5 /* Pods-GogolookTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3036C59EF463B6A2B4CF29A0CE0615 /* Pods-GogolookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GogolookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AAA7B46CEA4A4DE5B63FF59113CF1942 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		AB450F166CE757EB316B2FAD22B24737 /* Pods-GogolookTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GogolookTestTests.modulemap"; sourceTree = "<group>"; };
 		ADC9A2F2461020E756084F97AAED227A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		B2520066CE24CC267AC65F705CB6345E /* Pods-GogolookTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B53F2FF9E1790E29E56C41152CFF75F4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		B88723024FA5DCE3BC0BAE4F1AAA829B /* Pods-GogolookTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GogolookTestTests-dummy.m"; sourceTree = "<group>"; };
+		B58F80449636032AECF5F653544432F0 /* Pods-Gogolook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gogolook-acknowledgements.plist"; sourceTree = "<group>"; };
 		BBCEDB65C37485D1C8D2F6A498A24D79 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		BE55CC546538C86B9003F01489FF484E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		BFEC626ED20260D136FEA0C3EB6887E9 /* Pods-GogolookTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTest-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6157DE93004FA08050AA7F987D1BD4D /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		C808F74463F595B329EC09743197579A /* Pods-Gogolook-GogolookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gogolook-GogolookUITests-umbrella.h"; sourceTree = "<group>"; };
 		C81CC54B6C3E988889B0772D9EC78145 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D08A2196DBEF9856ECD8F22EE95BE918 /* Pods-GogolookTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GogolookTest-umbrella.h"; sourceTree = "<group>"; };
-		D4C5BDDEA2803723A2D89643B9362065 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GogolookTest-GogolookTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9E0785053A2E26A5D92A862E8142FC /* Pods-Gogolook-GogolookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gogolook-GogolookUITests.modulemap"; sourceTree = "<group>"; };
+		CD001295855F2753C5AEDD0A89453154 /* Pods-Gogolook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gogolook-frameworks.sh"; sourceTree = "<group>"; };
 		DD8950DCBA74C94B1637C6D3F258A172 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		DEEFDEC9130D53CC3E6196106048E82B /* Pods-GogolookTest-GogolookTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GogolookTest-GogolookTestUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E05D7711B2B10BABE42ABAD4C1B135FA /* Pods-GogolookTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GogolookTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EEF14E8547F8B764272C4AA80A005F62 /* Pods-GogolookTest-GogolookTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GogolookTest-GogolookTestUITests-dummy.m"; sourceTree = "<group>"; };
-		F3349CEB20FAF89121D9013448FD7811 /* Pods-GogolookTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTestTests-Info.plist"; sourceTree = "<group>"; };
+		DFE87A00B81648685289BD26F57E112E /* Pods-GogolookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GogolookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9DF07570CA4D7C72E84B715D4D53229 /* Pods_GogolookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GogolookTests.framework; path = "Pods-GogolookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14373C175B9083BDF2A9DFEC50CCFE7 /* Pods-Gogolook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gogolook-Info.plist"; sourceTree = "<group>"; };
 		F3DA76A8343FC252AC2526A06B8044C8 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		F4BECE85B336CCE7BF3A801566092401 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,27 +173,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77119FD7CAED711B22146F2A053E9138 /* Frameworks */ = {
+		796DEAB98B5EF4E83D96AB6C19E8D14F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9724E0AA25804F949DCC0A97EBDD8336 /* Foundation.framework in Frameworks */,
+				8D9936DACA222A9A3AE8A0D85FB4BF0A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF63894FF21D9AAB95084B050357D377 /* Frameworks */ = {
+		9D8F57D32C0254EFFF9773A87ACD8C97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4101ECFFA536E9D98C51536A3BCA67AA /* Foundation.framework in Frameworks */,
+				2CD981870C4189F22FA3EBD4C61758C9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F44DAABEA739ACEC99C02FB55BD32013 /* Frameworks */ = {
+		FEB3322C64D4CEBD4C802BCCD8BA5253 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A35717B7A6C3138E8F3AA7275357C7 /* Foundation.framework in Frameworks */,
+				34425330936B6CF520F587209BE7408B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +208,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		06E4FE8C287F0F923838475830CF937F /* Pods-GogolookTest-GogolookTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04CB1D799328CD75E52A84F784D573DA /* Pods-GogolookTest-GogolookTestUITests.modulemap */,
-				02927CBD72EAF924DF1C9A6FDB54533D /* Pods-GogolookTest-GogolookTestUITests-acknowledgements.markdown */,
-				A49075C84CDB740294822352D8D74007 /* Pods-GogolookTest-GogolookTestUITests-acknowledgements.plist */,
-				EEF14E8547F8B764272C4AA80A005F62 /* Pods-GogolookTest-GogolookTestUITests-dummy.m */,
-				DEEFDEC9130D53CC3E6196106048E82B /* Pods-GogolookTest-GogolookTestUITests-frameworks.sh */,
-				6DD306C3859389EB1DFFABD640019A3B /* Pods-GogolookTest-GogolookTestUITests-Info.plist */,
-				2FA73DD95C58545545D0C940721B4231 /* Pods-GogolookTest-GogolookTestUITests-umbrella.h */,
-				D4C5BDDEA2803723A2D89643B9362065 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */,
-				6FA5749B61DC08F3D0A3FBD6BE59DB12 /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */,
-			);
-			name = "Pods-GogolookTest-GogolookTestUITests";
-			path = "Target Support Files/Pods-GogolookTest-GogolookTestUITests";
-			sourceTree = "<group>";
-		};
 		267250116081A16D95DCFEB33CCA1721 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +215,23 @@
 				B2D2984B91127B3EB17A8EB7DEA2173F /* MBProgressHUD */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D17CAC828D2EA7146C365CEB361B6F1 /* Pods-Gogolook-GogolookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9E0785053A2E26A5D92A862E8142FC /* Pods-Gogolook-GogolookUITests.modulemap */,
+				35625AD9F204A1ADEEF270967A1097D1 /* Pods-Gogolook-GogolookUITests-acknowledgements.markdown */,
+				623E5E6FFE86E45E7DDBA45F50906FCB /* Pods-Gogolook-GogolookUITests-acknowledgements.plist */,
+				790B0ABC17B57303ADB76DE5C453942E /* Pods-Gogolook-GogolookUITests-dummy.m */,
+				9244FBEFF32BB556A4569350F1D80DC0 /* Pods-Gogolook-GogolookUITests-frameworks.sh */,
+				8E77AB727E463DAFEF2A1BC1BA5BE8A2 /* Pods-Gogolook-GogolookUITests-Info.plist */,
+				C808F74463F595B329EC09743197579A /* Pods-Gogolook-GogolookUITests-umbrella.h */,
+				72FD21D1EF3D359CCB64FD12B1EC71F5 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */,
+				5C3A46E8C9D1AD3BA5DCD918BAF733E9 /* Pods-Gogolook-GogolookUITests.release.xcconfig */,
+			);
+			name = "Pods-Gogolook-GogolookUITests";
+			path = "Target Support Files/Pods-Gogolook-GogolookUITests";
 			sourceTree = "<group>";
 		};
 		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
@@ -259,24 +259,29 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		7C263D9F2E3B6D203FC79C93961724A4 /* Products */ = {
+		786D2E6F8EF034D66AEBEDD9F21C0F15 /* Pods-Gogolook */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				62EAC02F21BF3051E7C90C029AB14D1E /* Pods_GogolookTest.framework */,
-				A25089318E5015472F20DFCEFA22C0E2 /* Pods_GogolookTest_GogolookTestUITests.framework */,
-				43EF90BCCF855E9CFDBCE84624D3BBF2 /* Pods_GogolookTestTests.framework */,
+				4B73FE61C0C442859AC79DAD0B836BD5 /* Pods-Gogolook.modulemap */,
+				8202CEEEEF5AF9A38E7CE136267F5401 /* Pods-Gogolook-acknowledgements.markdown */,
+				B58F80449636032AECF5F653544432F0 /* Pods-Gogolook-acknowledgements.plist */,
+				86515C4AC53447BB5F01E398B43CE80E /* Pods-Gogolook-dummy.m */,
+				CD001295855F2753C5AEDD0A89453154 /* Pods-Gogolook-frameworks.sh */,
+				F14373C175B9083BDF2A9DFEC50CCFE7 /* Pods-Gogolook-Info.plist */,
+				070BD1129FF0D2862821EC41780E3CFD /* Pods-Gogolook-umbrella.h */,
+				85339C00D949D056D5B3BB71C347CE67 /* Pods-Gogolook.debug.xcconfig */,
+				8DBE2A4618A0C2B835B3A3AB0818AF46 /* Pods-Gogolook.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Gogolook";
+			path = "Target Support Files/Pods-Gogolook";
 			sourceTree = "<group>";
 		};
-		A47E64192CA7480EE69FAC2ED60DF604 /* Targets Support Files */ = {
+		816151844B826EC7DC8CA565CFBFE491 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA314F885FAA98F4E098989DBAB6E51C /* Pods-GogolookTest */,
-				06E4FE8C287F0F923838475830CF937F /* Pods-GogolookTest-GogolookTestUITests */,
-				FE8734A3E1E7245560B3CACCC8317A79 /* Pods-GogolookTestTests */,
+				786D2E6F8EF034D66AEBEDD9F21C0F15 /* Pods-Gogolook */,
+				3D17CAC828D2EA7146C365CEB361B6F1 /* Pods-Gogolook-GogolookUITests */,
+				BC7B4ACBAA6E83A9EE72141FFF651EB3 /* Pods-GogolookTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				677DD1F7AC64BF19C71CEBD97C4C056F /* Validation.swift */,
 				5A443CE2876D51B91D9B3E6B286399D0 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -313,7 +319,36 @@
 				F4BECE85B336CCE7BF3A801566092401 /* MBProgressHUD.m */,
 				E98192ED55B764D08FA7EBA11C5F2AD3 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BC7B4ACBAA6E83A9EE72141FFF651EB3 /* Pods-GogolookTests */ = {
+			isa = PBXGroup;
+			children = (
+				52236ED730DEA318AEE3F3568A8B5BCB /* Pods-GogolookTests.modulemap */,
+				9F3036C59EF463B6A2B4CF29A0CE0615 /* Pods-GogolookTests-acknowledgements.markdown */,
+				DFE87A00B81648685289BD26F57E112E /* Pods-GogolookTests-acknowledgements.plist */,
+				7DEA8FBC46CD34F53096D89A6689D606 /* Pods-GogolookTests-dummy.m */,
+				76746088C360F9A4F93889636EE32A03 /* Pods-GogolookTests-Info.plist */,
+				053D12991FEF47571FA595B588F66C4A /* Pods-GogolookTests-umbrella.h */,
+				467154744C45BCB3A8EF31A1A01A465C /* Pods-GogolookTests.debug.xcconfig */,
+				4BBF5B839AE1A86BD4F83688F5393B75 /* Pods-GogolookTests.release.xcconfig */,
+			);
+			name = "Pods-GogolookTests";
+			path = "Target Support Files/Pods-GogolookTests";
+			sourceTree = "<group>";
+		};
+		BD5449CF06CB7BC034FACB6D7125FEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				728C1ED55D975BB226538A0EADC75DA8 /* Pods_Gogolook.framework */,
+				33BF41B4659AD74797C846D1CB505439 /* Pods_Gogolook_GogolookUITests.framework */,
+				E9DF07570CA4D7C72E84B715D4D53229 /* Pods_GogolookTests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -322,8 +357,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				267250116081A16D95DCFEB33CCA1721 /* Pods */,
-				7C263D9F2E3B6D203FC79C93961724A4 /* Products */,
-				A47E64192CA7480EE69FAC2ED60DF604 /* Targets Support Files */,
+				BD5449CF06CB7BC034FACB6D7125FEEF /* Products */,
+				816151844B826EC7DC8CA565CFBFE491 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -340,39 +375,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
-		FA314F885FAA98F4E098989DBAB6E51C /* Pods-GogolookTest */ = {
-			isa = PBXGroup;
-			children = (
-				466705647BFCC8416D3A183112EF5913 /* Pods-GogolookTest.modulemap */,
-				98F487EF25F00956224D7CC75D007AB0 /* Pods-GogolookTest-acknowledgements.markdown */,
-				BFEC626ED20260D136FEA0C3EB6887E9 /* Pods-GogolookTest-acknowledgements.plist */,
-				53603B82BEB4633DD7FBED3D086F2E7F /* Pods-GogolookTest-dummy.m */,
-				1A3DA7E5F44F904CC54332EFAC9A1B03 /* Pods-GogolookTest-frameworks.sh */,
-				A2F634AE1F9FB3E20923B32549977306 /* Pods-GogolookTest-Info.plist */,
-				D08A2196DBEF9856ECD8F22EE95BE918 /* Pods-GogolookTest-umbrella.h */,
-				7269EDB4DA1DC7E85DD2A915DD81A3DD /* Pods-GogolookTest.debug.xcconfig */,
-				539FDF717950642B82D2797A7710C71C /* Pods-GogolookTest.release.xcconfig */,
-			);
-			name = "Pods-GogolookTest";
-			path = "Target Support Files/Pods-GogolookTest";
-			sourceTree = "<group>";
-		};
-		FE8734A3E1E7245560B3CACCC8317A79 /* Pods-GogolookTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB450F166CE757EB316B2FAD22B24737 /* Pods-GogolookTestTests.modulemap */,
-				E05D7711B2B10BABE42ABAD4C1B135FA /* Pods-GogolookTestTests-acknowledgements.markdown */,
-				A4B6C1A03F52139393EBACCC139654C5 /* Pods-GogolookTestTests-acknowledgements.plist */,
-				B88723024FA5DCE3BC0BAE4F1AAA829B /* Pods-GogolookTestTests-dummy.m */,
-				F3349CEB20FAF89121D9013448FD7811 /* Pods-GogolookTestTests-Info.plist */,
-				7D9BF58BE15CA01D9565FF472E056482 /* Pods-GogolookTestTests-umbrella.h */,
-				B2520066CE24CC267AC65F705CB6345E /* Pods-GogolookTestTests.debug.xcconfig */,
-				213CF4B3377D332A5C456C1470287EFB /* Pods-GogolookTestTests.release.xcconfig */,
-			);
-			name = "Pods-GogolookTestTests";
-			path = "Target Support Files/Pods-GogolookTestTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,51 +397,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1C6955F2A666396663CCA3D575BE373 /* Headers */ = {
+		C341E6FBB98D798161483520F9034CF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EFFFDFD16CFC37DC6270A023EC8E37 /* Pods-GogolookTest-umbrella.h in Headers */,
+				6C340EC0E056A00B6CB7D4D8C741FD86 /* Pods-Gogolook-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF825ADFB2128832D723216B8B65F86A /* Headers */ = {
+		C3F40AF628B708DB79006665FB3DDD5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				329821BB79A3E595CFF791BF0CC9E104 /* Pods-GogolookTestTests-umbrella.h in Headers */,
+				406A20F3562DE7DE92B505BB49637492 /* Pods-Gogolook-GogolookUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6E92C93DD127DE68319986AF60267C2 /* Headers */ = {
+		FE1AB1E4D36CB27DED4815FBE76835F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C109660436136FC8EE523854E19B7BBE /* Pods-GogolookTest-GogolookTestUITests-umbrella.h in Headers */,
+				9F7E8150B4DA9A267D9F2006CFF22C59 /* Pods-GogolookTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B5A04227712F9630CC2F9EF601208E3 /* Pods-GogolookTest */ = {
+		462F004DB6AADB002EE10CD2AFE75068 /* Pods-GogolookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0E778766727097DB56FA88D7DC1E578 /* Build configuration list for PBXNativeTarget "Pods-GogolookTest" */;
+			buildConfigurationList = 955A08CC1F156D23D21E70236079808E /* Build configuration list for PBXNativeTarget "Pods-GogolookTests" */;
 			buildPhases = (
-				B1C6955F2A666396663CCA3D575BE373 /* Headers */,
-				C8F5C09C67162B90FEC4F137F862B9D0 /* Sources */,
-				77119FD7CAED711B22146F2A053E9138 /* Frameworks */,
-				631F64FD7440FD39595AAE4E30A75087 /* Resources */,
+				FE1AB1E4D36CB27DED4815FBE76835F9 /* Headers */,
+				2EB8031270514DF3940C392A9F85A4CC /* Sources */,
+				FEB3322C64D4CEBD4C802BCCD8BA5253 /* Frameworks */,
+				C0E45D85EB35C6D4E06515B71088CC84 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B3A39B632E0067026B5FC7236795CD0 /* PBXTargetDependency */,
-				A5A68F0DF762CB5858C5BDCA7737FA78 /* PBXTargetDependency */,
+				9AA1000706E9B437427E741E6AEC8B70 /* PBXTargetDependency */,
 			);
-			name = "Pods-GogolookTest";
-			productName = "Pods-GogolookTest";
-			productReference = 62EAC02F21BF3051E7C90C029AB14D1E /* Pods_GogolookTest.framework */;
+			name = "Pods-GogolookTests";
+			productName = "Pods-GogolookTests";
+			productReference = E9DF07570CA4D7C72E84B715D4D53229 /* Pods_GogolookTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
@@ -460,43 +461,44 @@
 			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8419429F0636952C75E2CDBFF9CE40DA /* Pods-GogolookTestTests */ = {
+		BE00E308294F301F307414C040E768AA /* Pods-Gogolook-GogolookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A88058657163AE0BF3B1F8AF96F67245 /* Build configuration list for PBXNativeTarget "Pods-GogolookTestTests" */;
+			buildConfigurationList = B1FF3A9F8F76C680FB597E67B5B51879 /* Build configuration list for PBXNativeTarget "Pods-Gogolook-GogolookUITests" */;
 			buildPhases = (
-				DF825ADFB2128832D723216B8B65F86A /* Headers */,
-				325556D4305210BDED152EE5BD640D1B /* Sources */,
-				AF63894FF21D9AAB95084B050357D377 /* Frameworks */,
-				C129A9A684191C3FD8D61AB3021CC3C4 /* Resources */,
+				C3F40AF628B708DB79006665FB3DDD5E /* Headers */,
+				E183689B3DB013F40BB0EBCB0FCD4C21 /* Sources */,
+				796DEAB98B5EF4E83D96AB6C19E8D14F /* Frameworks */,
+				24095B3070BF5452531AC3BA9EEBD324 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				41990D46129DEC0B55580998EC00557B /* PBXTargetDependency */,
+				94954CD70B59D9DDE513F92174CEAAAE /* PBXTargetDependency */,
+				E9B5FC9DBB03EAC74907F90E68CC3113 /* PBXTargetDependency */,
 			);
-			name = "Pods-GogolookTestTests";
-			productName = "Pods-GogolookTestTests";
-			productReference = 43EF90BCCF855E9CFDBCE84624D3BBF2 /* Pods_GogolookTestTests.framework */;
+			name = "Pods-Gogolook-GogolookUITests";
+			productName = "Pods-Gogolook-GogolookUITests";
+			productReference = 33BF41B4659AD74797C846D1CB505439 /* Pods_Gogolook_GogolookUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E90BA2F3D1757D4854183E3B004A0D90 /* Pods-GogolookTest-GogolookTestUITests */ = {
+		C09211D2F9A0121FF6EF2445FB412985 /* Pods-Gogolook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C23D45BAAAA0DB8D5C7A2A7070C274C /* Build configuration list for PBXNativeTarget "Pods-GogolookTest-GogolookTestUITests" */;
+			buildConfigurationList = B16FAF84677987D5F6144A3957D5B744 /* Build configuration list for PBXNativeTarget "Pods-Gogolook" */;
 			buildPhases = (
-				E6E92C93DD127DE68319986AF60267C2 /* Headers */,
-				52039A775D4E3F342DBCFBDA74E67E9B /* Sources */,
-				F44DAABEA739ACEC99C02FB55BD32013 /* Frameworks */,
-				7E78C1DA6BE0EAAD49F4EF9CE6DBB913 /* Resources */,
+				C341E6FBB98D798161483520F9034CF1 /* Headers */,
+				EC368C46C42C1041375393278C239635 /* Sources */,
+				9D8F57D32C0254EFFF9773A87ACD8C97 /* Frameworks */,
+				236A3F21C62784D0A0EE50A3AA15661A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8CCC57213A5B4231545B6C42C53D6C13 /* PBXTargetDependency */,
-				FEB6631B6ECCFA11CB235433FA650673 /* PBXTargetDependency */,
+				5DB99A153D9F74508529D4671E33048C /* PBXTargetDependency */,
+				98396F3CFDA564BBE7F732900AD63686 /* PBXTargetDependency */,
 			);
-			name = "Pods-GogolookTest-GogolookTestUITests";
-			productName = "Pods-GogolookTest-GogolookTestUITests";
-			productReference = A25089318E5015472F20DFCEFA22C0E2 /* Pods_GogolookTest_GogolookTestUITests.framework */;
+			name = "Pods-Gogolook";
+			productName = "Pods-Gogolook";
+			productReference = 728C1ED55D975BB226538A0EADC75DA8 /* Pods_Gogolook.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -535,20 +537,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7C263D9F2E3B6D203FC79C93961724A4 /* Products */;
+			productRefGroup = BD5449CF06CB7BC034FACB6D7125FEEF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
-				3B5A04227712F9630CC2F9EF601208E3 /* Pods-GogolookTest */,
-				E90BA2F3D1757D4854183E3B004A0D90 /* Pods-GogolookTest-GogolookTestUITests */,
-				8419429F0636952C75E2CDBFF9CE40DA /* Pods-GogolookTestTests */,
+				C09211D2F9A0121FF6EF2445FB412985 /* Pods-Gogolook */,
+				BE00E308294F301F307414C040E768AA /* Pods-Gogolook-GogolookUITests */,
+				462F004DB6AADB002EE10CD2AFE75068 /* Pods-GogolookTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		236A3F21C62784D0A0EE50A3AA15661A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24095B3070BF5452531AC3BA9EEBD324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,21 +579,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631F64FD7440FD39595AAE4E30A75087 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E78C1DA6BE0EAAD49F4EF9CE6DBB913 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C129A9A684191C3FD8D61AB3021CC3C4 /* Resources */ = {
+		C0E45D85EB35C6D4E06515B71088CC84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -612,27 +614,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		325556D4305210BDED152EE5BD640D1B /* Sources */ = {
+		2EB8031270514DF3940C392A9F85A4CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A5B77E39F58B69D19D2DF2258D3599 /* Pods-GogolookTestTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52039A775D4E3F342DBCFBDA74E67E9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D99944CC6428C985157F0E219784956 /* Pods-GogolookTest-GogolookTestUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8F5C09C67162B90FEC4F137F862B9D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A95D561A8FC221EAFCB3E11C2523501 /* Pods-GogolookTest-dummy.m in Sources */,
+				11167AB6CA3210E2BC8870EF539B06AF /* Pods-GogolookTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,45 +631,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E183689B3DB013F40BB0EBCB0FCD4C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA08C11832B7E72EEBC1C179BC41A91 /* Pods-Gogolook-GogolookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC368C46C42C1041375393278C239635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B87C49A1DEA2E7DC6E51079EC8602D /* Pods-Gogolook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41990D46129DEC0B55580998EC00557B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GogolookTest";
-			target = 3B5A04227712F9630CC2F9EF601208E3 /* Pods-GogolookTest */;
-			targetProxy = 42EA46E9E7A500CB07D6429F894C8714 /* PBXContainerItemProxy */;
-		};
-		6B3A39B632E0067026B5FC7236795CD0 /* PBXTargetDependency */ = {
+		5DB99A153D9F74508529D4671E33048C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = A83914B07B2D970137089D641EFBC2E5 /* PBXContainerItemProxy */;
+			targetProxy = 9243AC7D0F150972F44B01E60396E605 /* PBXContainerItemProxy */;
 		};
-		8CCC57213A5B4231545B6C42C53D6C13 /* PBXTargetDependency */ = {
+		94954CD70B59D9DDE513F92174CEAAAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = C76D19B1D6F77FD9865DA5999BF36063 /* PBXContainerItemProxy */;
+			targetProxy = C4EF8FA513C9D0BF75977161995DACF4 /* PBXContainerItemProxy */;
 		};
-		A5A68F0DF762CB5858C5BDCA7737FA78 /* PBXTargetDependency */ = {
+		98396F3CFDA564BBE7F732900AD63686 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 696ABCD82B61FDB96FB743AA992150ED /* PBXContainerItemProxy */;
+			targetProxy = 3177D0B6386862E780267E0DFAC93B4A /* PBXContainerItemProxy */;
 		};
-		FEB6631B6ECCFA11CB235433FA650673 /* PBXTargetDependency */ = {
+		9AA1000706E9B437427E741E6AEC8B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Gogolook";
+			target = C09211D2F9A0121FF6EF2445FB412985 /* Pods-Gogolook */;
+			targetProxy = 28EFDFBEA8C692DC1DA6281E3B09D8B8 /* PBXContainerItemProxy */;
+		};
+		E9B5FC9DBB03EAC74907F90E68CC3113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 40E5384CC8FDBB0D52D007B557079930 /* PBXContainerItemProxy */;
+			targetProxy = C6FD5F37AF78FFA01AD39303A735D9F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4C0539D7FCB588D35B01B07544F3A307 /* Release */ = {
+		08291AF0009E928A47356E727890BB98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FA5749B61DC08F3D0A3FBD6BE59DB12 /* Pods-GogolookTest-GogolookTestUITests.release.xcconfig */;
+			baseConfigurationReference = 4BBF5B839AE1A86BD4F83688F5393B75 /* Pods-GogolookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -695,16 +697,91 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A3CAA0089321B50364B823BB020C666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FD21D1EF3D359CCB64FD12B1EC71F5 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78D49867E3240382E1E2174DE295C74E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3A46E8C9D1AD3BA5DCD918BAF733E9 /* Pods-Gogolook-GogolookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -754,7 +831,44 @@
 			};
 			name = Release;
 		};
-		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+		85F64F95586AAF6918560D3CB66BF88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467154744C45BCB3A8EF31A1A01A465C /* Pods-GogolookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -789,13 +903,16 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -804,15 +921,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9035AB26541B18EE3BF7DA0CB63088EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBE2A4618A0C2B835B3A3AB0818AF46 /* Pods-Gogolook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gogolook/Pods-Gogolook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gogolook/Pods-Gogolook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -885,119 +1041,7 @@
 			};
 			name = Debug;
 		};
-		AB683AF79D2F51D8157BF82D1AB53602 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 213CF4B3377D332A5C456C1470287EFB /* Pods-GogolookTestTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0CD04FCE9A67954D004B20EB6692830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2520066CE24CC267AC65F705CB6345E /* Pods-GogolookTestTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTestTests/Pods-GogolookTestTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B26F27982B55D90BB23F1BD807A71499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7269EDB4DA1DC7E85DD2A915DD81A3DD /* Pods-GogolookTest.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1032,16 +1076,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1050,55 +1091,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
-		};
-		C6D4904F1C46DAD4660A53E96D3E41E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4C5BDDEA2803723A2D89643B9362065 /* Pods-GogolookTest-GogolookTestUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTest-GogolookTestUITests/Pods-GogolookTest-GogolookTestUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		CBFD66C31CBBEE4A24B97D6774480A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1134,9 +1137,9 @@
 			};
 			name = Debug;
 		};
-		DB36E51CC0B65A24A76608248B71C329 /* Release */ = {
+		F0F1DA3C46A0308792CF7506396C5C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 539FDF717950642B82D2797A7710C71C /* Pods-GogolookTest.release.xcconfig */;
+			baseConfigurationReference = 85339C00D949D056D5B3BB71C347CE67 /* Pods-Gogolook.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1148,16 +1151,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gogolook/Pods-Gogolook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GogolookTest/Pods-GogolookTest.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Gogolook/Pods-Gogolook.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1166,29 +1169,19 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C23D45BAAAA0DB8D5C7A2A7070C274C /* Build configuration list for PBXNativeTarget "Pods-GogolookTest-GogolookTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C6D4904F1C46DAD4660A53E96D3E41E4 /* Debug */,
-				4C0539D7FCB588D35B01B07544F3A307 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
-				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1202,11 +1195,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A88058657163AE0BF3B1F8AF96F67245 /* Build configuration list for PBXNativeTarget "Pods-GogolookTestTests" */ = {
+		955A08CC1F156D23D21E70236079808E /* Build configuration list for PBXNativeTarget "Pods-GogolookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0CD04FCE9A67954D004B20EB6692830 /* Debug */,
-				AB683AF79D2F51D8157BF82D1AB53602 /* Release */,
+				85F64F95586AAF6918560D3CB66BF88A /* Debug */,
+				08291AF0009E928A47356E727890BB98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16FAF84677987D5F6144A3957D5B744 /* Build configuration list for PBXNativeTarget "Pods-Gogolook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F1DA3C46A0308792CF7506396C5C24 /* Debug */,
+				9035AB26541B18EE3BF7DA0CB63088EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FF3A9F8F76C680FB597E67B5B51879 /* Build configuration list for PBXNativeTarget "Pods-Gogolook-GogolookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3CAA0089321B50364B823BB020C666 /* Debug */,
+				78D49867E3240382E1E2174DE295C74E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1216,15 +1227,6 @@
 			buildConfigurations = (
 				93AD64353C65D45C0D4197F9ECAD786D /* Debug */,
 				7A990D4D7A394E906F2DE82D639771CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0E778766727097DB56FA88D7DC1E578 /* Build configuration list for PBXNativeTarget "Pods-GogolookTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B26F27982B55D90BB23F1BD807A71499 /* Debug */,
-				DB36E51CC0B65A24A76608248B71C329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

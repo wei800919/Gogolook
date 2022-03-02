@@ -1,6 +1,0 @@
-framework module Pods_GogolookTestTests {
-  umbrella header "Pods-GogolookTestTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

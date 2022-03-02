@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8419429F0636952C75E2CDBFF9CE40DA"
-               BuildableName = "Pods_GogolookTestTests.framework"
-               BlueprintName = "Pods-GogolookTestTests"
+               BlueprintIdentifier = "BE00E308294F301F307414C040E768AA"
+               BuildableName = "Pods_Gogolook_GogolookUITests.framework"
+               BlueprintName = "Pods-Gogolook-GogolookUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
