@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/xidi/Documents/Gogolook/Gogolook.xcodeproj">
+      location = "group:Gogolook.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Gogolook.xcodeproj">
    </FileRef>
 </Workspace>
