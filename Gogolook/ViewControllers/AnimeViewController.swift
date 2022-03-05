@@ -7,9 +7,9 @@
 
 import UIKit
 
-class AnimeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class AnimeViewController: UIViewController {
     
-    @IBOutlet weak var animeTableView: UITableView!
+    @IBOutlet weak var animeCollectionView: UICollectionView!
     
     var activityIndicatorView: UIActivityIndicatorView!
     var viewModel = AnimeViewModel()
@@ -17,14 +17,22 @@ class AnimeViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        self.title = "Anime List"
-        self.navigationController?.navigationBar.tintColor = .white
+        setUI()
+        activityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.large)
+        activityIndicatorView.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
+        activityIndicatorView.center = self.view.center
+        activityIndicatorView.tintColor = UIColor(named: "CutomNavigationBarTintColor")
+        self.view.addSubview(activityIndicatorView)
+        activityIndicatorView.startAnimating()
         
         viewModel.setup()
         viewModel.fetchAnimeList()
         viewModel.onRequestEnd = {
-            self.animeTableView.reloadData()
+            DispatchQueue.main.async {
+                self.activityIndicatorView.stopAnimating()
+                self.title = "Anime List"
+                self.animeCollectionView.reloadData()
+            }
         }
         
         viewModel.onRequestError = { [weak self] error in
@@ -41,27 +49,38 @@ class AnimeViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
     }
     
+    func setUI() {
+        // fix ios 13 navigationbar appearance issue
+        if #available(iOS 13.0, *) {
+            let navBarAppearance = UINavigationBarAppearance()
+            navBarAppearance.configureWithOpaqueBackground()
+            navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor(named: "CutomBackButtonTintColor")]
+            navBarAppearance.backgroundColor = UIColor(named: "CutomNavigationBarTintColor")
+            self.navigationController?.navigationBar.standardAppearance = navBarAppearance
+            self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
+        }
+    }
+    
     func loadMore() {
         viewModel.page += 1
         viewModel.fetchAnimeList(isLoadMore: true)
         viewModel.onRequestEnd = {
-            self.activityIndicatorView.stopAnimating()
-            self.animeTableView.reloadData()
-            print(self.viewModel.top.count)
+            DispatchQueue.main.async {
+                self.activityIndicatorView.stopAnimating()
+                self.animeCollectionView.reloadData()
+            }
         }
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+}
+
+extension AnimeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel.top.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? AnimeTableViewCell else {
-            return UITableViewCell()
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(AnimeCollectionViewCell.self)", for: indexPath) as? AnimeCollectionViewCell else {
+            return UICollectionViewCell()
         }
         
         cell.viewModel = viewModel
@@ -70,19 +89,20 @@ class AnimeViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = UIScreen.main.bounds.width / 2
+        let height = width * 1.67
+        return CGSize(width: width, height: height)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
         self.performSegue(withIdentifier: "showUrl", sender: viewModel.top[indexPath.row].url)
     }
     
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if indexPath.row + 1 == viewModel.top.count {
-            print("do something")
-            activityIndicatorView = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.medium)
-            activityIndicatorView.startAnimating()
-            activityIndicatorView.frame = CGRect(x: 0, y: 0, width: tableView.bounds.width, height: 44)
-            self.animeTableView.tableFooterView = activityIndicatorView
-            self.animeTableView.tableFooterView?.isHidden = false
+            self.activityIndicatorView.startAnimating()
             self.loadMore()
         }
     }

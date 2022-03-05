@@ -9,16 +9,14 @@ import UIKit
 import WebKit
 
 class AnimeDetailViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
-
-    var webView = WKWebView()
     
+    var webView = WKWebView()
     var urlString = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        setUI()
         if let url = URL(string: urlString) {
             let request = URLRequest(url: url)
             let configuration = WKWebViewConfiguration()
@@ -41,21 +39,6 @@ class AnimeDetailViewController: UIViewController, WKNavigationDelegate, WKUIDel
         // Pass the selected object to the new view controller.
     }
     */
-    
-    func setUI() {
-        
-        //fix ios 13 navigationbar appearance issue
-        if #available(iOS 13.0, *) {
-            let navBarAppearance = UINavigationBarAppearance()
-            navBarAppearance.configureWithOpaqueBackground()
-            navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.backgroundColor = .black
-            self.navigationController?.navigationBar.standardAppearance = navBarAppearance
-            self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
-        }
-        self.navigationController?.navigationBar.tintColor = .white
-    }
     
     @IBAction func backBarButtonAction(_ sender: Any) {
         if self.webView.canGoBack {

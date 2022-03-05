@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E12EE7027D25443006CB572 /* AnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12EE6F27D25443006CB572 /* AnimeCollectionViewCell.swift */; };
 		1E7334ED27CC77D90063BB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334EC27CC77D90063BB13 /* AppDelegate.swift */; };
 		1E7334F127CC77D90063BB13 /* AnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334F027CC77D90063BB13 /* AnimeViewController.swift */; };
 		1E7334F427CC77D90063BB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7334F227CC77D90063BB13 /* Main.storyboard */; };
@@ -28,8 +29,6 @@
 		1E73353327CC84670063BB13 /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353127CC84670063BB13 /* AnimeViewModel.swift */; };
 		1E73353627CC84D70063BB13 /* AnimeAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353527CC84D70063BB13 /* AnimeAPIManager.swift */; };
 		1E73353727CC84D70063BB13 /* AnimeAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353527CC84D70063BB13 /* AnimeAPIManager.swift */; };
-		1E73353A27CC877C0063BB13 /* AnimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353927CC877C0063BB13 /* AnimeTableViewCell.swift */; };
-		1E73353B27CC877C0063BB13 /* AnimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353927CC877C0063BB13 /* AnimeTableViewCell.swift */; };
 		1E73353E27CC8BED0063BB13 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353C27CC8BED0063BB13 /* UIImageView+Ext.swift */; };
 		1E73353F27CC8BED0063BB13 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353C27CC8BED0063BB13 /* UIImageView+Ext.swift */; };
 		1E73354027CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73353D27CC8BED0063BB13 /* UIVIewController+Ext.swift */; };
@@ -71,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		0F5FA04B5348E1D8B286FAA6 /* Pods-Gogolook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook.debug.xcconfig"; path = "Target Support Files/Pods-Gogolook/Pods-Gogolook.debug.xcconfig"; sourceTree = "<group>"; };
+		1E12EE6F27D25443006CB572 /* AnimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		1E7334E927CC77D90063BB13 /* Gogolook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gogolook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7334EC27CC77D90063BB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E7334F027CC77D90063BB13 /* AnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 		1E73352E27CC7F8C0063BB13 /* APIFetchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetchTest.swift; sourceTree = "<group>"; };
 		1E73353127CC84670063BB13 /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
 		1E73353527CC84D70063BB13 /* AnimeAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeAPIManager.swift; sourceTree = "<group>"; };
-		1E73353927CC877C0063BB13 /* AnimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableViewCell.swift; sourceTree = "<group>"; };
 		1E73353C27CC8BED0063BB13 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 		1E73353D27CC8BED0063BB13 /* UIVIewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Ext.swift"; sourceTree = "<group>"; };
 		1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
@@ -261,7 +260,7 @@
 		1E73353827CC87630063BB13 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				1E73353927CC877C0063BB13 /* AnimeTableViewCell.swift */,
+				1E12EE6F27D25443006CB572 /* AnimeCollectionViewCell.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -550,11 +549,11 @@
 				1E7334F127CC77D90063BB13 /* AnimeViewController.swift in Sources */,
 				1E73352527CC78350063BB13 /* URLProcess.swift in Sources */,
 				1E73352427CC78350063BB13 /* Errors.swift in Sources */,
+				1E12EE7027D25443006CB572 /* AnimeCollectionViewCell.swift in Sources */,
 				1E73352227CC78350063BB13 /* API.swift in Sources */,
 				1E73354027CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */,
 				1E73352B27CC7D950063BB13 /* AnimeCodable.swift in Sources */,
 				1E73352327CC78350063BB13 /* FetchParameter.swift in Sources */,
-				1E73353A27CC877C0063BB13 /* AnimeTableViewCell.swift in Sources */,
 				1E7334ED27CC77D90063BB13 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,7 +578,6 @@
 				1EB9C31727CFA860000756E9 /* Errors.swift in Sources */,
 				1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */,
 				1EB9C31827CFA871000756E9 /* FetchParameter.swift in Sources */,
-				1E73353B27CC877C0063BB13 /* AnimeTableViewCell.swift in Sources */,
 				1EB9C31D27CFA890000756E9 /* AnimeViewController.swift in Sources */,
 				1E73350427CC77DB0063BB13 /* GogolookTestTests.swift in Sources */,
 				1E73353727CC84D70063BB13 /* AnimeAPIManager.swift in Sources */,
