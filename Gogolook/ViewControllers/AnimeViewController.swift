@@ -6,10 +6,16 @@
 //
 
 import UIKit
+import SnapKit
 
 class AnimeViewController: UIViewController {
     
     @IBOutlet weak var animeCollectionView: UICollectionView!
+    @IBOutlet weak var pickerParentView: UIView!
+    @IBOutlet weak var typePickerView: UIPickerView!
+    @IBOutlet weak var toolBar: UIToolbar!
+    @IBOutlet weak var doneBarButton: UIBarButtonItem!
+    @IBOutlet weak var rightBarButton: UIBarButtonItem!
     
     var activityIndicatorView: UIActivityIndicatorView!
     var viewModel = AnimeViewModel()
@@ -32,6 +38,7 @@ class AnimeViewController: UIViewController {
                 self.activityIndicatorView.stopAnimating()
                 self.title = "Anime List"
                 self.animeCollectionView.reloadData()
+                self.typePickerView.reloadComponent(1)
             }
         }
         
@@ -59,6 +66,18 @@ class AnimeViewController: UIViewController {
             self.navigationController?.navigationBar.standardAppearance = navBarAppearance
             self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
         }
+        
+        typePickerView.snp.makeConstraints { make in
+            make.top.equalTo(self.pickerParentView.snp.top).offset(44)
+            make.bottom.equalTo(self.pickerParentView).offset(0)
+            make.right.equalTo(self.pickerParentView).offset(0)
+            make.left.equalTo(self.pickerParentView).offset(0)
+        }
+        
+        typePickerView.backgroundColor = .systemGray
+        toolBar.tintColor = .systemGray
+        toolBar.backgroundColor = .systemGray
+        rightBarButton.tintColor = UIColor(named: "CutomBackButtonTintColor")
     }
     
     func loadMore() {
@@ -69,6 +88,18 @@ class AnimeViewController: UIViewController {
                 self.activityIndicatorView.stopAnimating()
                 self.animeCollectionView.reloadData()
             }
+        }
+    }
+    
+    @IBAction func rightBarButtonAction(_ sender: Any) {
+        UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseIn) {
+            self.pickerParentView.isHidden = false
+        }
+    }
+    
+    @IBAction func doneBarButtonAction(_ sender: Any) {
+        UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut) {
+            self.pickerParentView.isHidden = true
         }
     }
 }

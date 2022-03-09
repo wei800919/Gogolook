@@ -11,6 +11,7 @@ class AnimeViewModel {
     
     var manager = AnimeAPIManager()
     var top = [TopCodable]()
+    var subTypes = [String]()
     var favorites = [Int]()
     var page = 1
     
@@ -30,6 +31,11 @@ class AnimeViewModel {
             case .success(let topList):
                 if let data = topList.top {
                     self?.top += data
+                    var set = Set<String>()
+                    self?.top.forEach({ top in
+                        set.insert(top.type!)
+                    })
+                    self?.subTypes = Array(set)
                     if isLoadMore {
                         self?.onLoadMoreRequestEnd?()
                     }

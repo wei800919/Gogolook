@@ -106,25 +106,73 @@
                                     <outlet property="delegate" destination="Vf9-4z-ukr" id="3vu-U1-Vfs"/>
                                 </connections>
                             </collectionView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHE-Cw-U4E">
+                                <rect key="frame" x="0.0" y="636" width="414" height="260"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" id="tbz-im-VrC" customClass="TypesPickerView" customModule="Gogolook" customModuleProvider="target">
+                                        <rect key="frame" x="-87" y="-76" width="588" height="279"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Vf9-4z-ukr" id="0S4-hO-Au2"/>
+                                            <outlet property="delegate" destination="Vf9-4z-ukr" id="esx-XU-jtO"/>
+                                        </connections>
+                                    </pickerView>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEL-JC-G4f">
+                                        <rect key="frame" x="0.0" y="-76" width="414" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="LBY-Dy-trE"/>
+                                        </constraints>
+                                        <items>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="OFI-gR-dp1"/>
+                                            <barButtonItem title="Done" id="lLc-zy-XV8">
+                                                <connections>
+                                                    <action selector="doneBarButtonAction:" destination="Vf9-4z-ukr" id="W3h-rx-pqO"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                    </toolbar>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="rEL-JC-G4f" firstAttribute="leading" secondItem="eHE-Cw-U4E" secondAttribute="leading" id="BVP-xy-eEz"/>
+                                    <constraint firstAttribute="height" constant="260" id="Nqr-7s-42M"/>
+                                    <constraint firstItem="rEL-JC-G4f" firstAttribute="top" secondItem="tbz-im-VrC" secondAttribute="top" id="gqN-PE-7z2"/>
+                                    <constraint firstAttribute="trailing" secondItem="rEL-JC-G4f" secondAttribute="trailing" id="wiM-L3-ViQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GBw-nO-lwH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="eHE-Cw-U4E" firstAttribute="leading" secondItem="GBw-nO-lwH" secondAttribute="leading" id="9Rr-OY-2Fj"/>
+                            <constraint firstItem="GBw-nO-lwH" firstAttribute="trailing" secondItem="eHE-Cw-U4E" secondAttribute="trailing" id="MoD-Gg-S6Z"/>
                             <constraint firstItem="z5b-U2-bej" firstAttribute="top" secondItem="GBw-nO-lwH" secondAttribute="top" id="Opr-P1-5oz"/>
                             <constraint firstItem="GBw-nO-lwH" firstAttribute="bottom" secondItem="z5b-U2-bej" secondAttribute="bottom" id="Tjc-B1-YUY"/>
                             <constraint firstItem="GBw-nO-lwH" firstAttribute="trailing" secondItem="z5b-U2-bej" secondAttribute="trailing" id="f8I-g9-7Xe"/>
+                            <constraint firstAttribute="bottom" secondItem="eHE-Cw-U4E" secondAttribute="bottom" id="owk-3h-3u4"/>
                             <constraint firstItem="z5b-U2-bej" firstAttribute="leading" secondItem="GBw-nO-lwH" secondAttribute="leading" id="tqn-v8-Ob7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uM1-9R-ISA"/>
+                    <navigationItem key="navigationItem" id="uM1-9R-ISA">
+                        <barButtonItem key="rightBarButtonItem" image="magnifyingglass" catalog="system" id="CNW-Wu-Yyo">
+                            <connections>
+                                <action selector="rightBarButtonAction:" destination="Vf9-4z-ukr" id="bc4-tK-3qV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="animeCollectionView" destination="z5b-U2-bej" id="MaM-Tk-6sC"/>
+                        <outlet property="doneBarButton" destination="lLc-zy-XV8" id="Yxf-es-om6"/>
+                        <outlet property="pickerParentView" destination="eHE-Cw-U4E" id="UTy-ex-pRt"/>
+                        <outlet property="rightBarButton" destination="CNW-Wu-Yyo" id="yeb-Mf-f9v"/>
+                        <outlet property="toolBar" destination="rEL-JC-G4f" id="ibF-GP-hPh"/>
+                        <outlet property="typePickerView" destination="tbz-im-VrC" id="Gae-uV-wLU"/>
                         <segue destination="MbB-Uo-HDI" kind="show" identifier="showUrl" id="oHF-kC-WjX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoB-3f-eJn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="881" y="94"/>
+            <point key="canvasLocation" x="879.71014492753625" y="93.75"/>
         </scene>
         <!--Anime Detail View Controller-->
         <scene sceneID="zAI-Qm-hNK">
@@ -178,6 +226,7 @@
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
         <namedColor name="CutomBackButtonTintColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

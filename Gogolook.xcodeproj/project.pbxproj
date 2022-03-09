@@ -46,6 +46,9 @@
 		1EB9C31F27CFA893000756E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7334EC27CC77D90063BB13 /* AppDelegate.swift */; };
 		1EB9C32227CFA95C000756E9 /* DownloadImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */; };
 		1EB9C32727CFAC1F000756E9 /* DateStringFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */; };
+		34791B1D27D88686008FB3BB /* AnimeExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34791B1C27D88686008FB3BB /* AnimeExtensionViewController.swift */; };
+		34791B1E27D88686008FB3BB /* AnimeExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34791B1C27D88686008FB3BB /* AnimeExtensionViewController.swift */; };
+		34791B2227D88CC0008FB3BB /* TypesPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34791B2127D88CC0008FB3BB /* TypesPickerView.swift */; };
 		40C322F071051185BA5BCC3F /* Pods_GogolookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F224F3B998909A5BF8121F92 /* Pods_GogolookTests.framework */; };
 		8CB4D0A41D368D1E52C6505F /* Pods_Gogolook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51BA6B47931EEFD45E01F1 /* Pods_Gogolook.framework */; };
 		B05CBC625E5641E09458E4A9 /* Pods_Gogolook_GogolookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250C1FD3E74109E120B1AE3B /* Pods_Gogolook_GogolookUITests.framework */; };
@@ -100,6 +103,8 @@
 		1EB9C32027CFA95C000756E9 /* DownloadImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageTest.swift; sourceTree = "<group>"; };
 		1EB9C32527CFAC1F000756E9 /* DateStringFormatTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringFormatTest.swift; sourceTree = "<group>"; };
 		250C1FD3E74109E120B1AE3B /* Pods_Gogolook_GogolookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gogolook_GogolookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34791B1C27D88686008FB3BB /* AnimeExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeExtensionViewController.swift; sourceTree = "<group>"; };
+		34791B2127D88CC0008FB3BB /* TypesPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesPickerView.swift; sourceTree = "<group>"; };
 		3C641C03928D74486843EC82 /* Pods-Gogolook-GogolookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook-GogolookUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		43F9FDE04A013D1797BF4F3E /* Pods-Gogolook-GogolookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gogolook-GogolookUITests.release.xcconfig"; path = "Target Support Files/Pods-Gogolook-GogolookUITests/Pods-Gogolook-GogolookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		48CCC92C80DD955C24AC55DA /* Pods-GogolookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GogolookTests.debug.xcconfig"; path = "Target Support Files/Pods-GogolookTests/Pods-GogolookTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				1E12EE6F27D25443006CB572 /* AnimeCollectionViewCell.swift */,
+				34791B2127D88CC0008FB3BB /* TypesPickerView.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				1E7334F027CC77D90063BB13 /* AnimeViewController.swift */,
+				34791B1C27D88686008FB3BB /* AnimeExtensionViewController.swift */,
 				1E73354327CCBA440063BB13 /* AnimeDetailViewController.swift */,
 			);
 			path = ViewControllers;
@@ -550,11 +557,13 @@
 				1E73352527CC78350063BB13 /* URLProcess.swift in Sources */,
 				1E73352427CC78350063BB13 /* Errors.swift in Sources */,
 				1E12EE7027D25443006CB572 /* AnimeCollectionViewCell.swift in Sources */,
+				34791B2227D88CC0008FB3BB /* TypesPickerView.swift in Sources */,
 				1E73352227CC78350063BB13 /* API.swift in Sources */,
 				1E73354027CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */,
 				1E73352B27CC7D950063BB13 /* AnimeCodable.swift in Sources */,
 				1E73352327CC78350063BB13 /* FetchParameter.swift in Sources */,
 				1E7334ED27CC77D90063BB13 /* AppDelegate.swift in Sources */,
+				34791B1D27D88686008FB3BB /* AnimeExtensionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +582,7 @@
 				1E73354127CC8BED0063BB13 /* UIVIewController+Ext.swift in Sources */,
 				1EB9C31E27CFA890000756E9 /* AnimeDetailViewController.swift in Sources */,
 				1EB9C31B27CFA871000756E9 /* API.swift in Sources */,
+				34791B1E27D88686008FB3BB /* AnimeExtensionViewController.swift in Sources */,
 				1EB9C31A27CFA871000756E9 /* APIFetch.swift in Sources */,
 				1E73352C27CC7D950063BB13 /* AnimeCodable.swift in Sources */,
 				1EB9C31727CFA860000756E9 /* Errors.swift in Sources */,
