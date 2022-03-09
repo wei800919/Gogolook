@@ -29,7 +29,6 @@ class TypesPickerView: UIPickerView {
     }
     
     func setupSubType(subTypes: [String], row: Int) -> String {
-        print(subTypes[row])
         return subTypes[row]
     }
 

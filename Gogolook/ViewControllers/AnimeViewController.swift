@@ -32,7 +32,7 @@ class AnimeViewController: UIViewController {
         activityIndicatorView.startAnimating()
         
         viewModel.setup()
-        viewModel.fetchAnimeList()
+        viewModel.fetchAnimeList(mainType: self.viewModel.mainType)
         viewModel.onRequestEnd = {
             DispatchQueue.main.async {
                 self.activityIndicatorView.stopAnimating()
@@ -67,23 +67,17 @@ class AnimeViewController: UIViewController {
             self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
         }
         
-        typePickerView.snp.makeConstraints { make in
-            make.top.equalTo(self.pickerParentView.snp.top).offset(44)
-            make.bottom.equalTo(self.pickerParentView).offset(0)
-            make.right.equalTo(self.pickerParentView).offset(0)
-            make.left.equalTo(self.pickerParentView).offset(0)
-        }
-        
         typePickerView.backgroundColor = .systemGray
         toolBar.tintColor = .systemGray
-        toolBar.backgroundColor = .systemGray
+        toolBar.backgroundColor = .lightGray
         rightBarButton.tintColor = UIColor(named: "CutomBackButtonTintColor")
     }
     
     func loadMore() {
         viewModel.page += 1
-        viewModel.fetchAnimeList(isLoadMore: true)
-        viewModel.onRequestEnd = {
+        activityIndicatorView.startAnimating()
+        viewModel.fetchAnimeList(mainType: self.viewModel.mainType, isLoadMore: true)
+        viewModel.onLoadMoreRequestEnd = {
             DispatchQueue.main.async {
                 self.activityIndicatorView.stopAnimating()
                 self.animeCollectionView.reloadData()
@@ -99,6 +93,15 @@ class AnimeViewController: UIViewController {
     
     @IBAction func doneBarButtonAction(_ sender: Any) {
         UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut) {
+            self.activityIndicatorView.startAnimating()
+            self.viewModel.fetchAnimeList(mainType: self.viewModel.mainType, isDone: true)
+            self.viewModel.onDoneRequestEnd = {
+                DispatchQueue.main.async {
+                    self.activityIndicatorView.stopAnimating()
+                    self.animeCollectionView.reloadData()
+                }
+            }
+        } completion: { isFinished in
             self.pickerParentView.isHidden = true
         }
     }

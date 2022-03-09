@@ -29,10 +29,11 @@ extension UIViewController {
         //guard let error = error.error else { return }
         
         var title = "Message"
-        var msg = "UserDataReadError"
+        var msg = "ServerError"
         
         switch error {
         case .network(let e):
+            print(e.message)
             switch e.code {
             case NSURLErrorNotConnectedToInternet: // -1009
                 msg = "NoInternetConnection"
@@ -41,7 +42,7 @@ extension UIViewController {
             case NSURLErrorDataNotAllowed:
                 ()
             default:
-                ()
+                msg = e.message
             }
         case .apiNetwork(let e):
             title = e.title ?? ""

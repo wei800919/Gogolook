@@ -18,7 +18,7 @@ class API {
 }
 
 extension API {
-    func getAnimeUrl(page: String) -> String {
+    func getAnimeUrl(mainType: String, subType: String, page: String) -> String {
         String(format: getBaseSearchURL(), page)
     }
 }

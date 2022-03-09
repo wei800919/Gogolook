@@ -8,8 +8,8 @@
 import Foundation
 
 class AnimeAPIManager {
-    func fetchAnimeList(page: String, handler: ((Swift.Result<AnimeCodable, AppError>) -> Void)?) {
-        let param = FetchParameters(url: API.shared.getAnimeUrl(page: page), parameters: nil, method: .get)
+    func fetchAnimeList(mainType: String, subType: String, page: String, handler: ((Swift.Result<AnimeCodable, AppError>) -> Void)?) {
+        let param = FetchParameters(url: API.shared.getAnimeUrl(mainType: mainType, subType: subType, page: page), parameters: nil, method: .get)
         fetch(process: APIFetch<AnimeCodable>(), parameters: param) { result in
             handler?(result)
         }
