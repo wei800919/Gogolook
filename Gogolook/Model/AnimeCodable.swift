@@ -10,7 +10,7 @@ import Foundation
 struct AnimeCodable: Codable, APIError {
     var Error: ErrorCodable?
 //    var request_hash: String?
-//    var request_cached: String?
+//    var request_cached: Bool?
 //    var request_cache_expiry: Int?
 //    var API_DEPRECATION: Bool?
 //    var API_DEPRECATION_DATE: String?

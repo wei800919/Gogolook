@@ -14,10 +14,37 @@ class APIFetch<T: Codable> {
     let parser = APIParser<T>()
     
     func request(param: FetchParameters, specialEncoding: ParameterEncoding? = nil, handler: ((Swift.Result<T, AppError>) -> Void)?) {
+        print(param.url)
         let url = URLProcess.encode(url: param.url)
+        print(url)
         let encoding = specialEncoding == nil ? getParameterEncoding(method: param.method) : specialEncoding!
         
-        Alamofire.request(url, method: param.method, parameters: param.parameters, encoding: encoding, headers: param.header).responseJSON { rsp in
+        
+//        Alamofire.request(url, method: param.method, parameters: param.parameters, encoding: encoding, headers: param.header).responseJSON { rsp in
+
+//            if let error = APINetworkError(response: rsp, error: nil) {
+//                handler?(.failure(.apiNetwork(error)))
+//                return
+//            }
+//
+//            switch rsp.result {
+//            case .success:
+//                switch self.parser.parse(data: rsp.data) {
+//                case .success(let value):
+//                    handler?(.success(value))
+//                case .failure(let error):
+//                    handler?(.failure(.parse(error)))
+//                }
+//            case .failure(let error):
+//                if let e = NetworkError(response: rsp, error: error) {
+//                    handler?(.failure(.network(e)))
+//                } else {
+//                    handler?(.failure(.NSError(error)))
+//                }
+//            }
+//        }
+        
+        Alamofire.request(url, method: param.method, parameters: param.parameters, encoding: encoding, headers: param.header).responseData(queue: .main) { rsp in
             
             if let error = APINetworkError(response: rsp, error: nil) {
                 handler?(.failure(.apiNetwork(error)))
@@ -58,8 +85,19 @@ class APIParser<T: Codable> {
         guard let data = data else { return .failure(ParseError.emptyData)}
         
         do {
-            let data = try JSONDecoder().decode(T.self, from: data)
-            return .success(data)
+            var dataString = String(data: data, encoding: .utf8)
+            let last2 = dataString?.suffix(2)
+            if last2 == "}}" {
+                dataString?.removeLast()
+                let newData = dataString?.data(using: .utf8)
+                guard let newData = newData else { return .failure(ParseError.emptyData)}
+                let data = try JSONDecoder().decode(T.self, from: newData)
+                return .success(data)
+            }
+            else {
+                let data = try JSONDecoder().decode(T.self, from: data)
+                return .success(data)
+            }
         } catch {
             return .failure(ParseError.parseJSONError(error))
         }

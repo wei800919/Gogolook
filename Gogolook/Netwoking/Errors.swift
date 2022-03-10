@@ -53,7 +53,7 @@ public struct APINetworkError: Error {
     
     private(set) var message: String = ""
     
-    init? (response: Alamofire.DataResponse<Any>?, error: Error?) {
+    init? (response: Alamofire.DataResponse<Data>?, error: Error?) {
 
         if let statusCode = response?.response?.statusCode, statusCode >= 200, statusCode < 300, error == nil {
             return nil
@@ -191,7 +191,7 @@ public struct NetworkError: Error {
     private(set) var message: String = ""
     private(set) var alamofireError: AFError?
     
-    init? (response: Alamofire.DataResponse<Any>?, error: Error?) {
+    init? (response: Alamofire.DataResponse<Data>?, error: Error?) {
 
         if let statusCode = response?.response?.statusCode, statusCode >= 200, statusCode < 300, error == nil {
             return nil
