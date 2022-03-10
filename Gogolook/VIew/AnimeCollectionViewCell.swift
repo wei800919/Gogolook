@@ -24,7 +24,7 @@ class AnimeCollectionViewCell: UICollectionViewCell {
             self.titleLabel.text = "\(rank). \(title)"
             self.typeLabel.text = type
             self.favoriteButton.tag = rank
-            let favorites = viewModel.mainType == MainTypes.anime.rawValue ? viewModel.favorites : viewModel.mangaFavorites
+            let favorites = viewModel.isAnimeType() ? viewModel.favorites : viewModel.mangaFavorites
             if favorites.contains(where: {$0 == rank}) {
                 self.favoriteButton.isSelected = true
             }
@@ -52,7 +52,7 @@ class AnimeCollectionViewCell: UICollectionViewCell {
             return
         }
         button.isSelected = !button.isSelected
-        var favorites = viewModel.mainType == MainTypes.anime.rawValue ? viewModel.favorites : viewModel.mangaFavorites
+        var favorites = viewModel.isAnimeType() ? viewModel.favorites : viewModel.mangaFavorites
         if button.isSelected {
             favorites.append(button.tag)
         }
@@ -62,7 +62,7 @@ class AnimeCollectionViewCell: UICollectionViewCell {
             }
         }
         
-        if viewModel.mainType == MainTypes.anime.rawValue {
+        if viewModel.isAnimeType() {
             viewModel.favorites = favorites
             UserDefaults.standard.set(favorites, forKey: "favorites")
         }

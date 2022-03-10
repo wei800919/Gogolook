@@ -113,7 +113,7 @@
                                         </items>
                                     </toolbar>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="63a-TA-oIN"/>
                                     <constraint firstItem="nev-hu-UQf" firstAttribute="leading" secondItem="eHE-Cw-U4E" secondAttribute="leading" id="B0g-0g-cnN"/>

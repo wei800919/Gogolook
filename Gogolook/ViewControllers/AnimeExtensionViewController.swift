@@ -15,16 +15,10 @@ enum MainTypes: String {
 extension AnimeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return viewModel.mainType == MainTypes.anime.rawValue ? 2 : 1
+        return viewModel.isAnimeType() ? 2 : 1
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-//        if viewModel.mainType == MainTypes.anime.rawValue {
-//            return component == 0 ? 2 : self.viewModel.subTypeArray.count
-//        }
-//        else {
-//            return 0
-//        }
         return component == 0 ? 2 : self.viewModel.subTypeArray.count
     }
     
@@ -45,7 +39,7 @@ extension AnimeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             self.viewModel.mainType = row == 0 ? MainTypes.anime.rawValue : MainTypes.manga.rawValue
             self.viewModel.isFilter = false
             self.viewModel.needToUpdateSubType = true
-            if self.viewModel.mainType == MainTypes.anime.rawValue {
+            if self.viewModel.isAnimeType() {
                 self.viewModel.animeSubType = "upcoming"
             }
             else {
@@ -65,7 +59,8 @@ extension AnimeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         }
         else {
             self.viewModel.isFilter = true
-            if self.viewModel.mainType == MainTypes.anime.rawValue {
+            
+            if self.viewModel.isAnimeType() {
                 self.viewModel.animeSubType = self.viewModel.subTypeArray[row]
             }
             else {

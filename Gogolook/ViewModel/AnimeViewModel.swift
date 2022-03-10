@@ -51,10 +51,10 @@ class AnimeViewModel {
     }
     
     func fetchAnimeList(mainType: String , isLoadMore: Bool = false, isDone: Bool = false) {
-        var subType = mainType == MainTypes.anime.rawValue ? animeSubType : mangaSubType
+        var subType = self.isAnimeType() ? animeSubType : mangaSubType
         
         if isFilter {
-            subType = mainType == MainTypes.anime.rawValue ? "upcoming" : ""
+            subType = self.isAnimeType() ? "upcoming" : ""
         }
         
         manager.fetchAnimeList(mainType: mainType, subType: subType, page: "\(self.page)") { [weak self] result in
@@ -79,7 +79,7 @@ class AnimeViewModel {
                         })
                         
                         self?.subTypeArray = Array(set)
-                        if mainType == MainTypes.anime.rawValue {
+                        if self?.isAnimeType() == true {
                             self?.subTypeArray.insert("upcoming", at: 0)
                         }
                         print(self?.subTypeArray)

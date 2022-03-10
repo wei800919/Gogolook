@@ -95,7 +95,7 @@ class AnimeViewController: UIViewController {
     }
     
     func filterFunction(subType: String) {
-        if self.viewModel.mainType == MainTypes.anime.rawValue {
+        if viewModel.isAnimeType() {
             self.viewModel.filterTop = self.viewModel.top.filter { $0.type == subType }
         }
         else {
