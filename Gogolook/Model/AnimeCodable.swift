@@ -15,6 +15,9 @@ struct AnimeCodable: Codable, APIError {
 //    var API_DEPRECATION: Bool?
 //    var API_DEPRECATION_DATE: String?
 //    var API_DEPRECATION_INFO: String?
+    var error: String?
+    var status: Int?
+    var message: String?
     var top: [TopCodable]?
 }
 
@@ -29,5 +32,5 @@ struct TopCodable: Codable{
     var start_date: String?
     var end_date: String?
     var members: Int?
-    var score: Int?
+    var score: Double?
 }

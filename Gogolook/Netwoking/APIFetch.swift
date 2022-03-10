@@ -14,14 +14,14 @@ class APIFetch<T: Codable> {
     let parser = APIParser<T>()
     
     func request(param: FetchParameters, specialEncoding: ParameterEncoding? = nil, handler: ((Swift.Result<T, AppError>) -> Void)?) {
-        print(param.url)
+        
         let url = URLProcess.encode(url: param.url)
         print(url)
         let encoding = specialEncoding == nil ? getParameterEncoding(method: param.method) : specialEncoding!
         
         
 //        Alamofire.request(url, method: param.method, parameters: param.parameters, encoding: encoding, headers: param.header).responseJSON { rsp in
-
+//
 //            if let error = APINetworkError(response: rsp, error: nil) {
 //                handler?(.failure(.apiNetwork(error)))
 //                return
@@ -45,12 +45,12 @@ class APIFetch<T: Codable> {
 //        }
         
         Alamofire.request(url, method: param.method, parameters: param.parameters, encoding: encoding, headers: param.header).responseData(queue: .main) { rsp in
-            
+
             if let error = APINetworkError(response: rsp, error: nil) {
                 handler?(.failure(.apiNetwork(error)))
                 return
             }
-            
+
             switch rsp.result {
             case .success:
                 switch self.parser.parse(data: rsp.data) {

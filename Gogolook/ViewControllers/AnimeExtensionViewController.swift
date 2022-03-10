@@ -43,9 +43,34 @@ extension AnimeViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if component == 0 {
             self.viewModel.mainType = row == 0 ? MainTypes.anime.rawValue : MainTypes.manga.rawValue
+            self.viewModel.isFilter = false
+            self.viewModel.needToUpdateSubType = true
+            if self.viewModel.mainType == MainTypes.anime.rawValue {
+                self.viewModel.animeSubType = "upcoming"
+            }
+            else {
+                self.viewModel.mangaSubType = ""
+            }
+            
+            self.activityIndicatorView.startAnimating()
+            viewModel.page = 1
+            viewModel.fetchAnimeList(mainType: self.viewModel.mainType)
+            viewModel.onRequestEnd = {
+                DispatchQueue.main.async {
+                    self.activityIndicatorView.stopAnimating()
+                    self.animeCollectionView.reloadData()
+                    self.typePickerView.reloadComponent(1)
+                }
+            }
         }
         else {
-            self.viewModel.finalSubType = self.viewModel.subTypeArray[row]
+            self.viewModel.isFilter = true
+            if self.viewModel.mainType == MainTypes.anime.rawValue {
+                self.viewModel.animeSubType = self.viewModel.subTypeArray[row]
+            }
+            else {
+                self.viewModel.mangaSubType = self.viewModel.subTypeArray[row]
+            }
         }
     }
 }

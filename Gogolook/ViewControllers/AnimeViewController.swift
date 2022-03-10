@@ -41,7 +41,17 @@ class AnimeViewController: UIViewController {
             }
         }
         
+        viewModel.onFilterRequestEnd = {
+            self.activityIndicatorView.stopAnimating()
+            if self.viewModel.getSubType() == "" && self.viewModel.isMangaType() {
+                self.viewModel.mangaSubType = self.viewModel.subTypeArray[0]
+            }
+            print(self.viewModel.getSubType())
+            self.filterFunction(subType: self.viewModel.getSubType())
+        }
+        
         viewModel.onRequestError = { [weak self] error in
+            self?.activityIndicatorView.stopAnimating()
             self?.showAPIFailAlert(error: error)
         }
     }
@@ -66,9 +76,9 @@ class AnimeViewController: UIViewController {
             self.navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
         }
         
-        typePickerView.backgroundColor = .systemGray
+        typePickerView.backgroundColor = .systemBackground
         toolBar.tintColor = .systemGray
-        toolBar.backgroundColor = .lightGray
+        toolBar.backgroundColor = .systemBackground
         rightBarButton.tintColor = UIColor(named: "CutomBackButtonTintColor")
     }
     
@@ -84,21 +94,47 @@ class AnimeViewController: UIViewController {
         }
     }
     
+    func filterFunction(subType: String) {
+        if self.viewModel.mainType == MainTypes.anime.rawValue {
+            self.viewModel.filterTop = self.viewModel.top.filter { $0.type == subType }
+        }
+        else {
+            self.viewModel.filterTop = self.viewModel.top.filter { $0.type == subType }
+        }
+        
+        DispatchQueue.main.async {
+            self.animeCollectionView.reloadData()
+        }
+    }
+    
     @IBAction func rightBarButtonAction(_ sender: Any) {
         UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseIn) {
-            self.pickerParentView.isHidden = false
+            self.pickerParentView.isHidden = !self.pickerParentView.isHidden
         }
     }
     
     @IBAction func doneBarButtonAction(_ sender: Any) {
         UIView.animate(withDuration: 0.25, delay: 0, options: .curveEaseOut) {
-            self.activityIndicatorView.startAnimating()
-            self.viewModel.fetchAnimeList(mainType: self.viewModel.mainType, isDone: true)
-            self.viewModel.onDoneRequestEnd = {
-                DispatchQueue.main.async {
-                    self.activityIndicatorView.stopAnimating()
-                    self.animeCollectionView.reloadData()
+            var subType = self.viewModel.getSubType()
+            if subType == "" {
+                self.viewModel.isFilter = true
+                self.viewModel.mangaSubType = subType
+                subType = self.viewModel.subTypeArray[0]
+            }
+            if subType == "upcoming" {
+                self.viewModel.isFilter = false
+                self.viewModel.page = 1
+                self.activityIndicatorView.startAnimating()
+                self.viewModel.fetchAnimeList(mainType: self.viewModel.mainType, isDone: true)
+                self.viewModel.onDoneRequestEnd = {
+                    DispatchQueue.main.async {
+                        self.activityIndicatorView.stopAnimating()
+                        self.animeCollectionView.reloadData()
+                    }
                 }
+            }
+            else {
+                self.filterFunction(subType: subType)
             }
         } completion: { isFinished in
             self.pickerParentView.isHidden = true
@@ -108,7 +144,7 @@ class AnimeViewController: UIViewController {
 
 extension AnimeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return viewModel.top.count
+        return viewModel.isFilter ? viewModel.filterTop.count : viewModel.top.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -117,7 +153,8 @@ extension AnimeViewController: UICollectionViewDelegate, UICollectionViewDataSou
         }
         
         cell.viewModel = viewModel
-        cell.setup(top: viewModel.top[indexPath.row], index: indexPath.row)
+        let top = viewModel.isFilter ? viewModel.filterTop : viewModel.top
+        cell.setup(top: top[indexPath.row], index: indexPath.row)
         
         return cell
     }
@@ -134,7 +171,8 @@ extension AnimeViewController: UICollectionViewDelegate, UICollectionViewDataSou
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if indexPath.row + 1 == viewModel.top.count {
+        let top = self.viewModel.isFilter ? self.viewModel.filterTop : self.viewModel.top
+        if indexPath.row + 1 == top.count {
             self.activityIndicatorView.startAnimating()
             self.loadMore()
         }
